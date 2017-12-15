@@ -70,10 +70,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bracket.Designer.vb">
-      <DependentUpon>Bracket.vb</DependentUpon>
+    <Compile Include="Rand 8 Team Bracket.Designer.vb">
+      <DependentUpon>Rand 8 Team Bracket.vb</DependentUpon>
     </Compile>
-    <Compile Include="Bracket.vb">
+    <Compile Include="Rand 8 Team Bracket.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu.vb">
@@ -100,6 +100,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Rand 8 Team Bracket.resx">
+      <DependentUpon>Rand 8 Team Bracket.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +130,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\blue background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-Team-Single-Elimination.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

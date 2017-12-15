@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _8_Team_Single_Elimination() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("8-Team-Single-Elimination", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property all() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("all", resourceCulture)
