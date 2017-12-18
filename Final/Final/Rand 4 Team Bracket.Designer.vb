@@ -23,8 +23,8 @@ Partial Class Rand_4_Team_Bracket
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lblChampion = New System.Windows.Forms.Label()
-        Me.lblSeed2 = New System.Windows.Forms.Label()
-        Me.lblSeed1 = New System.Windows.Forms.Label()
+        Me.lblSeed2R2 = New System.Windows.Forms.Label()
+        Me.lblSeed1R2 = New System.Windows.Forms.Label()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.txtSeed2 = New System.Windows.Forms.TextBox()
         Me.txtSeed4 = New System.Windows.Forms.TextBox()
@@ -42,23 +42,23 @@ Partial Class Rand_4_Team_Bracket
         Me.lblChampion.Size = New System.Drawing.Size(141, 23)
         Me.lblChampion.TabIndex = 19
         '
-        'lblSeed2
+        'lblSeed2R2
         '
-        Me.lblSeed2.BackColor = System.Drawing.Color.LightGray
-        Me.lblSeed2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblSeed2.Location = New System.Drawing.Point(333, 387)
-        Me.lblSeed2.Name = "lblSeed2"
-        Me.lblSeed2.Size = New System.Drawing.Size(141, 23)
-        Me.lblSeed2.TabIndex = 18
+        Me.lblSeed2R2.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed2R2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed2R2.Location = New System.Drawing.Point(333, 387)
+        Me.lblSeed2R2.Name = "lblSeed2R2"
+        Me.lblSeed2R2.Size = New System.Drawing.Size(141, 23)
+        Me.lblSeed2R2.TabIndex = 18
         '
-        'lblSeed1
+        'lblSeed1R2
         '
-        Me.lblSeed1.BackColor = System.Drawing.Color.LightGray
-        Me.lblSeed1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblSeed1.Location = New System.Drawing.Point(333, 144)
-        Me.lblSeed1.Name = "lblSeed1"
-        Me.lblSeed1.Size = New System.Drawing.Size(141, 23)
-        Me.lblSeed1.TabIndex = 17
+        Me.lblSeed1R2.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed1R2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed1R2.Location = New System.Drawing.Point(333, 144)
+        Me.lblSeed1R2.Name = "lblSeed1R2"
+        Me.lblSeed1R2.Size = New System.Drawing.Size(141, 23)
+        Me.lblSeed1R2.TabIndex = 17
         '
         'TextBox4
         '
@@ -108,8 +108,8 @@ Partial Class Rand_4_Team_Bracket
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(798, 497)
         Me.Controls.Add(Me.lblChampion)
-        Me.Controls.Add(Me.lblSeed2)
-        Me.Controls.Add(Me.lblSeed1)
+        Me.Controls.Add(Me.lblSeed2R2)
+        Me.Controls.Add(Me.lblSeed1R2)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.txtSeed2)
         Me.Controls.Add(Me.txtSeed4)
@@ -123,8 +123,8 @@ Partial Class Rand_4_Team_Bracket
 
     End Sub
     Friend WithEvents lblChampion As System.Windows.Forms.Label
-    Friend WithEvents lblSeed2 As System.Windows.Forms.Label
-    Friend WithEvents lblSeed1 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed2R2 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed1R2 As System.Windows.Forms.Label
     Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
     Friend WithEvents txtSeed2 As System.Windows.Forms.TextBox
     Friend WithEvents txtSeed4 As System.Windows.Forms.TextBox

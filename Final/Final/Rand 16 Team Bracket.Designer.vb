@@ -23,14 +23,41 @@ Partial Class Rand_16_Team_Bracket
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.txtSeed1 = New System.Windows.Forms.TextBox()
+        Me.txtSeed16 = New System.Windows.Forms.TextBox()
+        Me.txtSeed5 = New System.Windows.Forms.TextBox()
+        Me.txtSeed12 = New System.Windows.Forms.TextBox()
+        Me.txtSeed4 = New System.Windows.Forms.TextBox()
+        Me.txtSeed13 = New System.Windows.Forms.TextBox()
+        Me.txtSeed8 = New System.Windows.Forms.TextBox()
+        Me.txtSeed9 = New System.Windows.Forms.TextBox()
+        Me.txtSeed2 = New System.Windows.Forms.TextBox()
+        Me.txtSeed15 = New System.Windows.Forms.TextBox()
+        Me.txtSeed6 = New System.Windows.Forms.TextBox()
+        Me.txtSeed11 = New System.Windows.Forms.TextBox()
+        Me.txtSeed3 = New System.Windows.Forms.TextBox()
+        Me.txtSeed14 = New System.Windows.Forms.TextBox()
+        Me.txtSeed7 = New System.Windows.Forms.TextBox()
+        Me.txtSeed10 = New System.Windows.Forms.TextBox()
+        Me.lblSeed1R2 = New System.Windows.Forms.Label()
+        Me.lblSeed5R2 = New System.Windows.Forms.Label()
+        Me.lblSeed4R2 = New System.Windows.Forms.Label()
+        Me.lblSeed8R2 = New System.Windows.Forms.Label()
+        Me.lblSeed2R2 = New System.Windows.Forms.Label()
+        Me.lblSeed6R2 = New System.Windows.Forms.Label()
+        Me.lblSeed3R2 = New System.Windows.Forms.Label()
+        Me.lblSeed7R2 = New System.Windows.Forms.Label()
+        Me.lblSeed1R3 = New System.Windows.Forms.Label()
+        Me.lblSeed4R3 = New System.Windows.Forms.Label()
+        Me.lblSeed2R3 = New System.Windows.Forms.Label()
+        Me.lblSeed3R3 = New System.Windows.Forms.Label()
+        Me.lblSeed1R4 = New System.Windows.Forms.Label()
+        Me.lblSeed2R4 = New System.Windows.Forms.Label()
+        Me.lblWinner = New System.Windows.Forms.Label()
+        Me.btnRound1 = New System.Windows.Forms.Button()
+        Me.btnRound2 = New System.Windows.Forms.Button()
+        Me.btnRound3 = New System.Windows.Forms.Button()
+        Me.btnRound4 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -44,79 +71,345 @@ Partial Class Rand_16_Team_Bracket
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'TextBox1
+        'txtSeed1
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.LightGray
-        Me.TextBox1.Location = New System.Drawing.Point(98, 38)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.txtSeed1.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed1.Location = New System.Drawing.Point(98, 38)
+        Me.txtSeed1.Name = "txtSeed1"
+        Me.txtSeed1.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed1.TabIndex = 1
         '
-        'TextBox2
+        'txtSeed16
         '
-        Me.TextBox2.BackColor = System.Drawing.Color.LightGray
-        Me.TextBox2.Location = New System.Drawing.Point(98, 99)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 2
+        Me.txtSeed16.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed16.Location = New System.Drawing.Point(98, 99)
+        Me.txtSeed16.Name = "txtSeed16"
+        Me.txtSeed16.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed16.TabIndex = 2
         '
-        'TextBox3
+        'txtSeed5
         '
-        Me.TextBox3.BackColor = System.Drawing.Color.LightGray
-        Me.TextBox3.Location = New System.Drawing.Point(98, 160)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 3
+        Me.txtSeed5.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed5.Location = New System.Drawing.Point(98, 160)
+        Me.txtSeed5.Name = "txtSeed5"
+        Me.txtSeed5.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed5.TabIndex = 3
         '
-        'TextBox4
+        'txtSeed12
         '
-        Me.TextBox4.BackColor = System.Drawing.Color.LightGray
-        Me.TextBox4.Location = New System.Drawing.Point(98, 223)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 4
+        Me.txtSeed12.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed12.Location = New System.Drawing.Point(98, 223)
+        Me.txtSeed12.Name = "txtSeed12"
+        Me.txtSeed12.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed12.TabIndex = 4
         '
-        'TextBox5
+        'txtSeed4
         '
-        Me.TextBox5.Location = New System.Drawing.Point(98, 285)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox5.TabIndex = 5
+        Me.txtSeed4.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed4.Location = New System.Drawing.Point(98, 285)
+        Me.txtSeed4.Name = "txtSeed4"
+        Me.txtSeed4.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed4.TabIndex = 5
         '
-        'TextBox6
+        'txtSeed13
         '
-        Me.TextBox6.Location = New System.Drawing.Point(98, 347)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox6.TabIndex = 6
+        Me.txtSeed13.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed13.Location = New System.Drawing.Point(98, 347)
+        Me.txtSeed13.Name = "txtSeed13"
+        Me.txtSeed13.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed13.TabIndex = 6
         '
-        'TextBox7
+        'txtSeed8
         '
-        Me.TextBox7.Location = New System.Drawing.Point(98, 408)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox7.TabIndex = 7
+        Me.txtSeed8.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed8.Location = New System.Drawing.Point(98, 408)
+        Me.txtSeed8.Name = "txtSeed8"
+        Me.txtSeed8.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed8.TabIndex = 7
         '
-        'TextBox8
+        'txtSeed9
         '
-        Me.TextBox8.Location = New System.Drawing.Point(98, 472)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox8.TabIndex = 8
+        Me.txtSeed9.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed9.Location = New System.Drawing.Point(98, 472)
+        Me.txtSeed9.Name = "txtSeed9"
+        Me.txtSeed9.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed9.TabIndex = 8
+        '
+        'txtSeed2
+        '
+        Me.txtSeed2.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed2.Location = New System.Drawing.Point(634, 38)
+        Me.txtSeed2.Name = "txtSeed2"
+        Me.txtSeed2.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed2.TabIndex = 9
+        '
+        'txtSeed15
+        '
+        Me.txtSeed15.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed15.Location = New System.Drawing.Point(634, 99)
+        Me.txtSeed15.Name = "txtSeed15"
+        Me.txtSeed15.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed15.TabIndex = 10
+        '
+        'txtSeed6
+        '
+        Me.txtSeed6.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed6.Location = New System.Drawing.Point(634, 160)
+        Me.txtSeed6.Name = "txtSeed6"
+        Me.txtSeed6.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed6.TabIndex = 11
+        '
+        'txtSeed11
+        '
+        Me.txtSeed11.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed11.Location = New System.Drawing.Point(634, 223)
+        Me.txtSeed11.Name = "txtSeed11"
+        Me.txtSeed11.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed11.TabIndex = 12
+        '
+        'txtSeed3
+        '
+        Me.txtSeed3.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed3.Location = New System.Drawing.Point(634, 285)
+        Me.txtSeed3.Name = "txtSeed3"
+        Me.txtSeed3.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed3.TabIndex = 13
+        '
+        'txtSeed14
+        '
+        Me.txtSeed14.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed14.Location = New System.Drawing.Point(634, 347)
+        Me.txtSeed14.Name = "txtSeed14"
+        Me.txtSeed14.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed14.TabIndex = 14
+        '
+        'txtSeed7
+        '
+        Me.txtSeed7.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed7.Location = New System.Drawing.Point(634, 408)
+        Me.txtSeed7.Name = "txtSeed7"
+        Me.txtSeed7.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed7.TabIndex = 15
+        '
+        'txtSeed10
+        '
+        Me.txtSeed10.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed10.Location = New System.Drawing.Point(634, 472)
+        Me.txtSeed10.Name = "txtSeed10"
+        Me.txtSeed10.Size = New System.Drawing.Size(100, 20)
+        Me.txtSeed10.TabIndex = 16
+        '
+        'lblSeed1R2
+        '
+        Me.lblSeed1R2.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed1R2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed1R2.Location = New System.Drawing.Point(204, 66)
+        Me.lblSeed1R2.Name = "lblSeed1R2"
+        Me.lblSeed1R2.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed1R2.TabIndex = 18
+        '
+        'lblSeed5R2
+        '
+        Me.lblSeed5R2.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed5R2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed5R2.Location = New System.Drawing.Point(204, 191)
+        Me.lblSeed5R2.Name = "lblSeed5R2"
+        Me.lblSeed5R2.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed5R2.TabIndex = 19
+        '
+        'lblSeed4R2
+        '
+        Me.lblSeed4R2.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed4R2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed4R2.Location = New System.Drawing.Point(204, 311)
+        Me.lblSeed4R2.Name = "lblSeed4R2"
+        Me.lblSeed4R2.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed4R2.TabIndex = 20
+        '
+        'lblSeed8R2
+        '
+        Me.lblSeed8R2.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed8R2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed8R2.Location = New System.Drawing.Point(204, 438)
+        Me.lblSeed8R2.Name = "lblSeed8R2"
+        Me.lblSeed8R2.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed8R2.TabIndex = 21
+        '
+        'lblSeed2R2
+        '
+        Me.lblSeed2R2.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed2R2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed2R2.Location = New System.Drawing.Point(544, 66)
+        Me.lblSeed2R2.Name = "lblSeed2R2"
+        Me.lblSeed2R2.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed2R2.TabIndex = 22
+        '
+        'lblSeed6R2
+        '
+        Me.lblSeed6R2.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed6R2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed6R2.Location = New System.Drawing.Point(544, 191)
+        Me.lblSeed6R2.Name = "lblSeed6R2"
+        Me.lblSeed6R2.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed6R2.TabIndex = 23
+        '
+        'lblSeed3R2
+        '
+        Me.lblSeed3R2.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed3R2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed3R2.Location = New System.Drawing.Point(544, 311)
+        Me.lblSeed3R2.Name = "lblSeed3R2"
+        Me.lblSeed3R2.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed3R2.TabIndex = 24
+        '
+        'lblSeed7R2
+        '
+        Me.lblSeed7R2.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed7R2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed7R2.Location = New System.Drawing.Point(544, 438)
+        Me.lblSeed7R2.Name = "lblSeed7R2"
+        Me.lblSeed7R2.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed7R2.TabIndex = 25
+        '
+        'lblSeed1R3
+        '
+        Me.lblSeed1R3.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed1R3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed1R3.Location = New System.Drawing.Point(284, 125)
+        Me.lblSeed1R3.Name = "lblSeed1R3"
+        Me.lblSeed1R3.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed1R3.TabIndex = 26
+        '
+        'lblSeed4R3
+        '
+        Me.lblSeed4R3.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed4R3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed4R3.Location = New System.Drawing.Point(284, 375)
+        Me.lblSeed4R3.Name = "lblSeed4R3"
+        Me.lblSeed4R3.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed4R3.TabIndex = 27
+        '
+        'lblSeed2R3
+        '
+        Me.lblSeed2R3.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed2R3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed2R3.Location = New System.Drawing.Point(464, 125)
+        Me.lblSeed2R3.Name = "lblSeed2R3"
+        Me.lblSeed2R3.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed2R3.TabIndex = 28
+        '
+        'lblSeed3R3
+        '
+        Me.lblSeed3R3.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed3R3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed3R3.Location = New System.Drawing.Point(464, 375)
+        Me.lblSeed3R3.Name = "lblSeed3R3"
+        Me.lblSeed3R3.Size = New System.Drawing.Size(84, 23)
+        Me.lblSeed3R3.TabIndex = 29
+        '
+        'lblSeed1R4
+        '
+        Me.lblSeed1R4.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed1R4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed1R4.Location = New System.Drawing.Point(323, 261)
+        Me.lblSeed1R4.Name = "lblSeed1R4"
+        Me.lblSeed1R4.Size = New System.Drawing.Size(84, 19)
+        Me.lblSeed1R4.TabIndex = 30
+        '
+        'lblSeed2R4
+        '
+        Me.lblSeed2R4.BackColor = System.Drawing.Color.LightGray
+        Me.lblSeed2R4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSeed2R4.Location = New System.Drawing.Point(425, 261)
+        Me.lblSeed2R4.Name = "lblSeed2R4"
+        Me.lblSeed2R4.Size = New System.Drawing.Size(84, 19)
+        Me.lblSeed2R4.TabIndex = 31
+        '
+        'lblWinner
+        '
+        Me.lblWinner.BackColor = System.Drawing.Color.LightGray
+        Me.lblWinner.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblWinner.Location = New System.Drawing.Point(343, 428)
+        Me.lblWinner.Name = "lblWinner"
+        Me.lblWinner.Size = New System.Drawing.Size(148, 33)
+        Me.lblWinner.TabIndex = 32
+        '
+        'btnRound1
+        '
+        Me.btnRound1.Location = New System.Drawing.Point(213, 470)
+        Me.btnRound1.Name = "btnRound1"
+        Me.btnRound1.Size = New System.Drawing.Size(75, 23)
+        Me.btnRound1.TabIndex = 33
+        Me.btnRound1.Text = "Round 1"
+        Me.btnRound1.UseVisualStyleBackColor = True
+        '
+        'btnRound2
+        '
+        Me.btnRound2.Location = New System.Drawing.Point(294, 470)
+        Me.btnRound2.Name = "btnRound2"
+        Me.btnRound2.Size = New System.Drawing.Size(75, 23)
+        Me.btnRound2.TabIndex = 34
+        Me.btnRound2.Text = "Round 2"
+        Me.btnRound2.UseVisualStyleBackColor = True
+        '
+        'btnRound3
+        '
+        Me.btnRound3.Location = New System.Drawing.Point(464, 470)
+        Me.btnRound3.Name = "btnRound3"
+        Me.btnRound3.Size = New System.Drawing.Size(75, 23)
+        Me.btnRound3.TabIndex = 35
+        Me.btnRound3.Text = "Round 3"
+        Me.btnRound3.UseVisualStyleBackColor = True
+        '
+        'btnRound4
+        '
+        Me.btnRound4.Location = New System.Drawing.Point(544, 470)
+        Me.btnRound4.Name = "btnRound4"
+        Me.btnRound4.Size = New System.Drawing.Size(75, 23)
+        Me.btnRound4.TabIndex = 36
+        Me.btnRound4.Text = "Round 4"
+        Me.btnRound4.UseVisualStyleBackColor = True
         '
         'Rand_16_Team_Bracket
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(839, 495)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.btnRound4)
+        Me.Controls.Add(Me.btnRound3)
+        Me.Controls.Add(Me.btnRound2)
+        Me.Controls.Add(Me.btnRound1)
+        Me.Controls.Add(Me.lblWinner)
+        Me.Controls.Add(Me.lblSeed2R4)
+        Me.Controls.Add(Me.lblSeed1R4)
+        Me.Controls.Add(Me.lblSeed3R3)
+        Me.Controls.Add(Me.lblSeed2R3)
+        Me.Controls.Add(Me.lblSeed4R3)
+        Me.Controls.Add(Me.lblSeed1R3)
+        Me.Controls.Add(Me.lblSeed7R2)
+        Me.Controls.Add(Me.lblSeed3R2)
+        Me.Controls.Add(Me.lblSeed6R2)
+        Me.Controls.Add(Me.lblSeed2R2)
+        Me.Controls.Add(Me.lblSeed8R2)
+        Me.Controls.Add(Me.lblSeed4R2)
+        Me.Controls.Add(Me.lblSeed5R2)
+        Me.Controls.Add(Me.lblSeed1R2)
+        Me.Controls.Add(Me.txtSeed10)
+        Me.Controls.Add(Me.txtSeed7)
+        Me.Controls.Add(Me.txtSeed14)
+        Me.Controls.Add(Me.txtSeed3)
+        Me.Controls.Add(Me.txtSeed11)
+        Me.Controls.Add(Me.txtSeed6)
+        Me.Controls.Add(Me.txtSeed15)
+        Me.Controls.Add(Me.txtSeed2)
+        Me.Controls.Add(Me.txtSeed9)
+        Me.Controls.Add(Me.txtSeed8)
+        Me.Controls.Add(Me.txtSeed13)
+        Me.Controls.Add(Me.txtSeed4)
+        Me.Controls.Add(Me.txtSeed12)
+        Me.Controls.Add(Me.txtSeed5)
+        Me.Controls.Add(Me.txtSeed16)
+        Me.Controls.Add(Me.txtSeed1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Rand_16_Team_Bracket"
         Me.Text = "Rand 16 Team Bracket"
@@ -126,12 +419,39 @@ Partial Class Rand_16_Team_Bracket
 
     End Sub
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed16 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed5 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed12 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed13 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed8 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed9 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed15 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed6 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed11 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed14 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed7 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed10 As System.Windows.Forms.TextBox
+    Friend WithEvents lblSeed1R2 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed5R2 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed4R2 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed8R2 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed2R2 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed6R2 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed3R2 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed7R2 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed1R3 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed4R3 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed2R3 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed3R3 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed1R4 As System.Windows.Forms.Label
+    Friend WithEvents lblSeed2R4 As System.Windows.Forms.Label
+    Friend WithEvents lblWinner As System.Windows.Forms.Label
+    Friend WithEvents btnRound1 As System.Windows.Forms.Button
+    Friend WithEvents btnRound2 As System.Windows.Forms.Button
+    Friend WithEvents btnRound3 As System.Windows.Forms.Button
+    Friend WithEvents btnRound4 As System.Windows.Forms.Button
 End Class
