@@ -114,8 +114,4 @@
         End If
         lblChampion.Text = strWinnerOne
     End Sub
-
-    Private Sub Bracket_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class
