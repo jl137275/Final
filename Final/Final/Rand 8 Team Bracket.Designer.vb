@@ -34,6 +34,13 @@ Partial Class Bracket
         Me.txtSeed6 = New System.Windows.Forms.TextBox()
         Me.btnRound2 = New System.Windows.Forms.Button()
         Me.btnRound3 = New System.Windows.Forms.Button()
+        Me.lblChampion = New System.Windows.Forms.Label()
+        Me.lblround3Seed2 = New System.Windows.Forms.Label()
+        Me.lblRound3Seed1 = New System.Windows.Forms.Label()
+        Me.lblRound2Seed3 = New System.Windows.Forms.Label()
+        Me.lblRound2Seed2 = New System.Windows.Forms.Label()
+        Me.lblRound2Seed4 = New System.Windows.Forms.Label()
+        Me.lblRound2Seed1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -137,11 +144,81 @@ Partial Class Bracket
         Me.btnRound3.Text = "Round3"
         Me.btnRound3.UseVisualStyleBackColor = True
         '
+        'lblChampion
+        '
+        Me.lblChampion.BackColor = System.Drawing.Color.LightGray
+        Me.lblChampion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblChampion.Location = New System.Drawing.Point(471, 232)
+        Me.lblChampion.Name = "lblChampion"
+        Me.lblChampion.Size = New System.Drawing.Size(156, 23)
+        Me.lblChampion.TabIndex = 34
+        '
+        'lblround3Seed2
+        '
+        Me.lblround3Seed2.BackColor = System.Drawing.Color.LightGray
+        Me.lblround3Seed2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblround3Seed2.Location = New System.Drawing.Point(310, 317)
+        Me.lblround3Seed2.Name = "lblround3Seed2"
+        Me.lblround3Seed2.Size = New System.Drawing.Size(156, 23)
+        Me.lblround3Seed2.TabIndex = 33
+        '
+        'lblRound3Seed1
+        '
+        Me.lblRound3Seed1.BackColor = System.Drawing.Color.LightGray
+        Me.lblRound3Seed1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblRound3Seed1.Location = New System.Drawing.Point(310, 121)
+        Me.lblRound3Seed1.Name = "lblRound3Seed1"
+        Me.lblRound3Seed1.Size = New System.Drawing.Size(156, 23)
+        Me.lblRound3Seed1.TabIndex = 32
+        '
+        'lblRound2Seed3
+        '
+        Me.lblRound2Seed3.BackColor = System.Drawing.Color.LightGray
+        Me.lblRound2Seed3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblRound2Seed3.Location = New System.Drawing.Point(182, 365)
+        Me.lblRound2Seed3.Name = "lblRound2Seed3"
+        Me.lblRound2Seed3.Size = New System.Drawing.Size(126, 23)
+        Me.lblRound2Seed3.TabIndex = 31
+        '
+        'lblRound2Seed2
+        '
+        Me.lblRound2Seed2.BackColor = System.Drawing.Color.LightGray
+        Me.lblRound2Seed2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblRound2Seed2.Location = New System.Drawing.Point(182, 264)
+        Me.lblRound2Seed2.Name = "lblRound2Seed2"
+        Me.lblRound2Seed2.Size = New System.Drawing.Size(126, 23)
+        Me.lblRound2Seed2.TabIndex = 30
+        '
+        'lblRound2Seed4
+        '
+        Me.lblRound2Seed4.BackColor = System.Drawing.Color.LightGray
+        Me.lblRound2Seed4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblRound2Seed4.Location = New System.Drawing.Point(182, 171)
+        Me.lblRound2Seed4.Name = "lblRound2Seed4"
+        Me.lblRound2Seed4.Size = New System.Drawing.Size(126, 23)
+        Me.lblRound2Seed4.TabIndex = 29
+        '
+        'lblRound2Seed1
+        '
+        Me.lblRound2Seed1.BackColor = System.Drawing.Color.LightGray
+        Me.lblRound2Seed1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblRound2Seed1.Location = New System.Drawing.Point(182, 70)
+        Me.lblRound2Seed1.Name = "lblRound2Seed1"
+        Me.lblRound2Seed1.Size = New System.Drawing.Size(126, 23)
+        Me.lblRound2Seed1.TabIndex = 28
+        '
         'Bracket
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(886, 457)
+        Me.Controls.Add(Me.lblChampion)
+        Me.Controls.Add(Me.lblround3Seed2)
+        Me.Controls.Add(Me.lblRound3Seed1)
+        Me.Controls.Add(Me.lblRound2Seed3)
+        Me.Controls.Add(Me.lblRound2Seed2)
+        Me.Controls.Add(Me.lblRound2Seed4)
+        Me.Controls.Add(Me.lblRound2Seed1)
         Me.Controls.Add(Me.btnRound3)
         Me.Controls.Add(Me.btnRound2)
         Me.Controls.Add(Me.txtSeed6)
@@ -173,4 +250,11 @@ Partial Class Bracket
     Friend WithEvents txtSeed6 As System.Windows.Forms.TextBox
     Friend WithEvents btnRound2 As System.Windows.Forms.Button
     Friend WithEvents btnRound3 As System.Windows.Forms.Button
+    Friend WithEvents lblChampion As System.Windows.Forms.Label
+    Friend WithEvents lblround3Seed2 As System.Windows.Forms.Label
+    Friend WithEvents lblRound3Seed1 As System.Windows.Forms.Label
+    Friend WithEvents lblRound2Seed3 As System.Windows.Forms.Label
+    Friend WithEvents lblRound2Seed2 As System.Windows.Forms.Label
+    Friend WithEvents lblRound2Seed4 As System.Windows.Forms.Label
+    Friend WithEvents lblRound2Seed1 As System.Windows.Forms.Label
 End Class
