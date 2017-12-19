@@ -25,11 +25,17 @@ Partial Class Rand_4_Team_Bracket
         Me.lblChampion = New System.Windows.Forms.Label()
         Me.lblSeed2R2 = New System.Windows.Forms.Label()
         Me.lblSeed1R2 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtSeed3 = New System.Windows.Forms.TextBox()
         Me.txtSeed2 = New System.Windows.Forms.TextBox()
         Me.txtSeed4 = New System.Windows.Forms.TextBox()
         Me.txtSeed1 = New System.Windows.Forms.TextBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.btnRound1 = New System.Windows.Forms.Button()
+        Me.btnRound2 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -37,9 +43,9 @@ Partial Class Rand_4_Team_Bracket
         '
         Me.lblChampion.BackColor = System.Drawing.Color.LightGray
         Me.lblChampion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblChampion.Location = New System.Drawing.Point(539, 264)
+        Me.lblChampion.Location = New System.Drawing.Point(539, 256)
         Me.lblChampion.Name = "lblChampion"
-        Me.lblChampion.Size = New System.Drawing.Size(141, 23)
+        Me.lblChampion.Size = New System.Drawing.Size(150, 31)
         Me.lblChampion.TabIndex = 19
         '
         'lblSeed2R2
@@ -60,13 +66,13 @@ Partial Class Rand_4_Team_Bracket
         Me.lblSeed1R2.Size = New System.Drawing.Size(141, 23)
         Me.lblSeed1R2.TabIndex = 17
         '
-        'TextBox4
+        'txtSeed3
         '
-        Me.TextBox4.BackColor = System.Drawing.Color.LightGray
-        Me.TextBox4.Location = New System.Drawing.Point(110, 451)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(141, 20)
-        Me.TextBox4.TabIndex = 15
+        Me.txtSeed3.BackColor = System.Drawing.Color.LightGray
+        Me.txtSeed3.Location = New System.Drawing.Point(110, 451)
+        Me.txtSeed3.Name = "txtSeed3"
+        Me.txtSeed3.Size = New System.Drawing.Size(141, 20)
+        Me.txtSeed3.TabIndex = 15
         '
         'txtSeed2
         '
@@ -102,15 +108,79 @@ Partial Class Rand_4_Team_Bracket
         Me.PictureBox2.TabIndex = 20
         Me.PictureBox2.TabStop = False
         '
+        'btnRound1
+        '
+        Me.btnRound1.Location = New System.Drawing.Point(154, 481)
+        Me.btnRound1.Name = "btnRound1"
+        Me.btnRound1.Size = New System.Drawing.Size(75, 23)
+        Me.btnRound1.TabIndex = 21
+        Me.btnRound1.Text = "Round 1"
+        Me.btnRound1.UseVisualStyleBackColor = True
+        '
+        'btnRound2
+        '
+        Me.btnRound2.Location = New System.Drawing.Point(372, 481)
+        Me.btnRound2.Name = "btnRound2"
+        Me.btnRound2.Size = New System.Drawing.Size(75, 23)
+        Me.btnRound2.TabIndex = 22
+        Me.btnRound2.Text = "Round 2"
+        Me.btnRound2.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(88, 95)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(14, 13)
+        Me.Label1.TabIndex = 23
+        Me.Label1.Text = "1"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(88, 217)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(14, 13)
+        Me.Label2.TabIndex = 24
+        Me.Label2.Text = "4"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(88, 336)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(14, 13)
+        Me.Label3.TabIndex = 25
+        Me.Label3.Text = "2"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(88, 458)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(14, 13)
+        Me.Label4.TabIndex = 26
+        Me.Label4.Text = "3"
+        '
         'Rand_4_Team_Bracket
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(798, 497)
+        Me.ClientSize = New System.Drawing.Size(798, 508)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.btnRound2)
+        Me.Controls.Add(Me.btnRound1)
         Me.Controls.Add(Me.lblChampion)
         Me.Controls.Add(Me.lblSeed2R2)
         Me.Controls.Add(Me.lblSeed1R2)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.txtSeed3)
         Me.Controls.Add(Me.txtSeed2)
         Me.Controls.Add(Me.txtSeed4)
         Me.Controls.Add(Me.txtSeed1)
@@ -125,9 +195,15 @@ Partial Class Rand_4_Team_Bracket
     Friend WithEvents lblChampion As System.Windows.Forms.Label
     Friend WithEvents lblSeed2R2 As System.Windows.Forms.Label
     Friend WithEvents lblSeed1R2 As System.Windows.Forms.Label
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtSeed3 As System.Windows.Forms.TextBox
     Friend WithEvents txtSeed2 As System.Windows.Forms.TextBox
     Friend WithEvents txtSeed4 As System.Windows.Forms.TextBox
     Friend WithEvents txtSeed1 As System.Windows.Forms.TextBox
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents btnRound1 As System.Windows.Forms.Button
+    Friend WithEvents btnRound2 As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
 End Class
