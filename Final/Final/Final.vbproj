@@ -76,10 +76,22 @@
     <Compile Include="Rand 16 Team Bracket.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Rand 32 Team Bracket.Designer.vb">
+      <DependentUpon>Rand 32 Team Bracket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rand 32 Team Bracket.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Rand 4 Team Bracket.Designer.vb">
       <DependentUpon>Rand 4 Team Bracket.vb</DependentUpon>
     </Compile>
     <Compile Include="Rand 4 Team Bracket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rand 64 Team Bracket.Designer.vb">
+      <DependentUpon>Rand 64 Team Bracket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rand 64 Team Bracket.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Rand 8 Team Bracket.Designer.vb">
@@ -115,8 +127,14 @@
     <EmbeddedResource Include="Rand 16 Team Bracket.resx">
       <DependentUpon>Rand 16 Team Bracket.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rand 32 Team Bracket.resx">
+      <DependentUpon>Rand 32 Team Bracket.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rand 4 Team Bracket.resx">
       <DependentUpon>Rand 4 Team Bracket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rand 64 Team Bracket.resx">
+      <DependentUpon>Rand 64 Team Bracket.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rand 8 Team Bracket.resx">
       <DependentUpon>Rand 8 Team Bracket.vb</DependentUpon>
