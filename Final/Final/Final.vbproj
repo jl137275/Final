@@ -70,6 +70,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Rand 16 Team Bracket.Designer.vb">
+      <DependentUpon>Rand 16 Team Bracket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rand 16 Team Bracket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rand 4 Team Bracket.Designer.vb">
+      <DependentUpon>Rand 4 Team Bracket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rand 4 Team Bracket.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Rand 8 Team Bracket.Designer.vb">
       <DependentUpon>Rand 8 Team Bracket.vb</DependentUpon>
     </Compile>
@@ -100,6 +112,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Rand 16 Team Bracket.resx">
+      <DependentUpon>Rand 16 Team Bracket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rand 4 Team Bracket.resx">
+      <DependentUpon>Rand 4 Team Bracket.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rand 8 Team Bracket.resx">
       <DependentUpon>Rand 8 Team Bracket.vb</DependentUpon>
     </EmbeddedResource>
@@ -133,6 +151,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\8-Team-Single-Elimination.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Team-Single-Elimination.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
