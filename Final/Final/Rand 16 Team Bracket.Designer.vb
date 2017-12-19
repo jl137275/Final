@@ -414,7 +414,7 @@ Partial Class Rand_16_Team_Bracket
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(14, 13)
         Me.Label3.TabIndex = 39
-        Me.Label3.Text = "1"
+        Me.Label3.Text = "5"
         '
         'Label4
         '
@@ -422,9 +422,9 @@ Partial Class Rand_16_Team_Bracket
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(78, 230)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(14, 13)
+        Me.Label4.Size = New System.Drawing.Size(21, 13)
         Me.Label4.TabIndex = 40
-        Me.Label4.Text = "1"
+        Me.Label4.Text = "12"
         '
         'Label5
         '
@@ -434,7 +434,7 @@ Partial Class Rand_16_Team_Bracket
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(14, 13)
         Me.Label5.TabIndex = 41
-        Me.Label5.Text = "1"
+        Me.Label5.Text = "4"
         '
         'Label6
         '
@@ -442,9 +442,9 @@ Partial Class Rand_16_Team_Bracket
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(78, 354)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(14, 13)
+        Me.Label6.Size = New System.Drawing.Size(21, 13)
         Me.Label6.TabIndex = 42
-        Me.Label6.Text = "1"
+        Me.Label6.Text = "13"
         '
         'Label7
         '
@@ -474,7 +474,7 @@ Partial Class Rand_16_Team_Bracket
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(14, 13)
         Me.Label9.TabIndex = 45
-        Me.Label9.Text = "1"
+        Me.Label9.Text = "2"
         '
         'Label10
         '
@@ -482,9 +482,9 @@ Partial Class Rand_16_Team_Bracket
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(740, 106)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(14, 13)
+        Me.Label10.Size = New System.Drawing.Size(21, 13)
         Me.Label10.TabIndex = 46
-        Me.Label10.Text = "1"
+        Me.Label10.Text = "15"
         '
         'Label11
         '
@@ -494,7 +494,7 @@ Partial Class Rand_16_Team_Bracket
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(14, 13)
         Me.Label11.TabIndex = 47
-        Me.Label11.Text = "1"
+        Me.Label11.Text = "6"
         '
         'Label12
         '
@@ -502,9 +502,9 @@ Partial Class Rand_16_Team_Bracket
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(740, 230)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(14, 13)
+        Me.Label12.Size = New System.Drawing.Size(21, 13)
         Me.Label12.TabIndex = 48
-        Me.Label12.Text = "1"
+        Me.Label12.Text = "11"
         '
         'Label13
         '
@@ -514,7 +514,7 @@ Partial Class Rand_16_Team_Bracket
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(14, 13)
         Me.Label13.TabIndex = 49
-        Me.Label13.Text = "1"
+        Me.Label13.Text = "3"
         '
         'Label14
         '
@@ -522,9 +522,9 @@ Partial Class Rand_16_Team_Bracket
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.Location = New System.Drawing.Point(740, 354)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(14, 13)
+        Me.Label14.Size = New System.Drawing.Size(21, 13)
         Me.Label14.TabIndex = 50
-        Me.Label14.Text = "1"
+        Me.Label14.Text = "14"
         '
         'Label15
         '
