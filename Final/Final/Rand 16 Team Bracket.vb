@@ -1,7 +1,8 @@
 ﻿Public Class Rand_16_Team_Bracket
 
 	Private Sub btnRound1_Click(sender As Object, e As EventArgs) Handles btnRound1.Click
-		Dim intWinner1 As Integer ' To indicate which team wins
+		Dim in
+		    tWinner1 As Integer ' To indicate which team wins
 		Dim intWinner2 As Integer '
 		Dim intWinner3 As Integer
 		Dim intWinner4 As Integer
