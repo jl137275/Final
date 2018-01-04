@@ -95,7 +95,7 @@ Partial Class Rand_32_Team_Bracket
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Round2 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -421,7 +421,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed11.Location = New System.Drawing.Point(786, 515)
         Me.txtSeed11.Name = "txtSeed11"
         Me.txtSeed11.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed11.TabIndex = 101
+        Me.txtSeed11.TabIndex = 98
         '
         'txtSeed22
         '
@@ -429,7 +429,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed22.Location = New System.Drawing.Point(786, 554)
         Me.txtSeed22.Name = "txtSeed22"
         Me.txtSeed22.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed22.TabIndex = 100
+        Me.txtSeed22.TabIndex = 99
         '
         'txtSeed6
         '
@@ -437,7 +437,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed6.Location = New System.Drawing.Point(786, 592)
         Me.txtSeed6.Name = "txtSeed6"
         Me.txtSeed6.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed6.TabIndex = 99
+        Me.txtSeed6.TabIndex = 100
         '
         'txtSeed27
         '
@@ -445,7 +445,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed27.Location = New System.Drawing.Point(786, 637)
         Me.txtSeed27.Name = "txtSeed27"
         Me.txtSeed27.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed27.TabIndex = 98
+        Me.txtSeed27.TabIndex = 101
         '
         'txtSeed3
         '
@@ -453,7 +453,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed3.Location = New System.Drawing.Point(786, 353)
         Me.txtSeed3.Name = "txtSeed3"
         Me.txtSeed3.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed3.TabIndex = 97
+        Me.txtSeed3.TabIndex = 94
         '
         'txtSeed30
         '
@@ -461,7 +461,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed30.Location = New System.Drawing.Point(786, 392)
         Me.txtSeed30.Name = "txtSeed30"
         Me.txtSeed30.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed30.TabIndex = 96
+        Me.txtSeed30.TabIndex = 95
         '
         'txtSeed14
         '
@@ -469,7 +469,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed14.Location = New System.Drawing.Point(786, 430)
         Me.txtSeed14.Name = "txtSeed14"
         Me.txtSeed14.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed14.TabIndex = 95
+        Me.txtSeed14.TabIndex = 96
         '
         'txtSeed19
         '
@@ -477,7 +477,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed19.Location = New System.Drawing.Point(786, 474)
         Me.txtSeed19.Name = "txtSeed19"
         Me.txtSeed19.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed19.TabIndex = 94
+        Me.txtSeed19.TabIndex = 97
         '
         'txtSeed10
         '
@@ -485,7 +485,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed10.Location = New System.Drawing.Point(786, 189)
         Me.txtSeed10.Name = "txtSeed10"
         Me.txtSeed10.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed10.TabIndex = 93
+        Me.txtSeed10.TabIndex = 90
         '
         'txtSeed23
         '
@@ -493,7 +493,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed23.Location = New System.Drawing.Point(786, 233)
         Me.txtSeed23.Name = "txtSeed23"
         Me.txtSeed23.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed23.TabIndex = 92
+        Me.txtSeed23.TabIndex = 91
         '
         'txtSeed7
         '
@@ -501,7 +501,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed7.Location = New System.Drawing.Point(786, 272)
         Me.txtSeed7.Name = "txtSeed7"
         Me.txtSeed7.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed7.TabIndex = 91
+        Me.txtSeed7.TabIndex = 92
         '
         'txtSeed26
         '
@@ -509,7 +509,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed26.Location = New System.Drawing.Point(786, 312)
         Me.txtSeed26.Name = "txtSeed26"
         Me.txtSeed26.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed26.TabIndex = 90
+        Me.txtSeed26.TabIndex = 93
         '
         'txtSeed2
         '
@@ -517,7 +517,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed2.Location = New System.Drawing.Point(786, 32)
         Me.txtSeed2.Name = "txtSeed2"
         Me.txtSeed2.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed2.TabIndex = 89
+        Me.txtSeed2.TabIndex = 86
         '
         'txtSeed31
         '
@@ -525,7 +525,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed31.Location = New System.Drawing.Point(786, 72)
         Me.txtSeed31.Name = "txtSeed31"
         Me.txtSeed31.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed31.TabIndex = 88
+        Me.txtSeed31.TabIndex = 87
         '
         'txtSeed15
         '
@@ -533,7 +533,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed15.Location = New System.Drawing.Point(786, 110)
         Me.txtSeed15.Name = "txtSeed15"
         Me.txtSeed15.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed15.TabIndex = 87
+        Me.txtSeed15.TabIndex = 88
         '
         'txtSeed18
         '
@@ -541,7 +541,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed18.Location = New System.Drawing.Point(786, 153)
         Me.txtSeed18.Name = "txtSeed18"
         Me.txtSeed18.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed18.TabIndex = 86
+        Me.txtSeed18.TabIndex = 89
         '
         'txtSeed5
         '
@@ -549,7 +549,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed5.Location = New System.Drawing.Point(49, 592)
         Me.txtSeed5.Name = "txtSeed5"
         Me.txtSeed5.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed5.TabIndex = 85
+        Me.txtSeed5.TabIndex = 84
         '
         'txtSeed28
         '
@@ -557,7 +557,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed28.Location = New System.Drawing.Point(49, 637)
         Me.txtSeed28.Name = "txtSeed28"
         Me.txtSeed28.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed28.TabIndex = 84
+        Me.txtSeed28.TabIndex = 85
         '
         'txtSeed13
         '
@@ -565,7 +565,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed13.Location = New System.Drawing.Point(49, 430)
         Me.txtSeed13.Name = "txtSeed13"
         Me.txtSeed13.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed13.TabIndex = 83
+        Me.txtSeed13.TabIndex = 80
         '
         'txtSeed20
         '
@@ -573,7 +573,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed20.Location = New System.Drawing.Point(49, 474)
         Me.txtSeed20.Name = "txtSeed20"
         Me.txtSeed20.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed20.TabIndex = 82
+        Me.txtSeed20.TabIndex = 81
         '
         'txtSeed12
         '
@@ -581,7 +581,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed12.Location = New System.Drawing.Point(49, 515)
         Me.txtSeed12.Name = "txtSeed12"
         Me.txtSeed12.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed12.TabIndex = 81
+        Me.txtSeed12.TabIndex = 82
         '
         'txtSeed21
         '
@@ -589,7 +589,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed21.Location = New System.Drawing.Point(49, 554)
         Me.txtSeed21.Name = "txtSeed21"
         Me.txtSeed21.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed21.TabIndex = 80
+        Me.txtSeed21.TabIndex = 83
         '
         'txtSeed29
         '
@@ -752,14 +752,14 @@ Partial Class Rand_32_Team_Bracket
         Me.Label7.TabIndex = 140
         Me.Label7.Text = "17"
         '
-        'Button1
+        'Round2
         '
-        Me.Button1.Location = New System.Drawing.Point(184, 679)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 141
-        Me.Button1.Text = "Round 2"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Round2.Location = New System.Drawing.Point(184, 679)
+        Me.Round2.Name = "Round2"
+        Me.Round2.Size = New System.Drawing.Size(75, 23)
+        Me.Round2.TabIndex = 141
+        Me.Round2.Text = "Round 2"
+        Me.Round2.UseVisualStyleBackColor = True
         '
         'Button2
         '
@@ -1071,7 +1071,7 @@ Partial Class Rand_32_Team_Bracket
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Round2)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -1223,7 +1223,7 @@ Partial Class Rand_32_Team_Bracket
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Round2 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button

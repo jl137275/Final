@@ -34,7 +34,7 @@
 			' 1 means txtseed2 is the winner
 			strWinnerOne = txtSeed16.Text
 		End If
-		lblSeed1R2.Text = strWinnerOne
+        lblSeed1R2.Text = strWinnerOne
 
 		If intWinner2 = 0 Then
 			' 0 means txtseed4 is the winner
