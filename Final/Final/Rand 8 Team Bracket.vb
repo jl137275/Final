@@ -113,5 +113,7 @@
             strWinnerOne = lblround3Seed2.Text
         End If
         lblChampion.Text = strWinnerOne
+        My.Computer.Audio.Play(My., AudioPlayMode.WaitToComplete)
+
     End Sub
 End Class
