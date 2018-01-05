@@ -392,4 +392,22 @@
         End If
         lblR5Seed2.Text = strWinnerOne
     End Sub
+
+    Private Sub Round5_Click(sender As Object, e As EventArgs) Handles Round5.Click
+        Dim intWinner1 As Integer
+        Dim rand As New Random ' Random number generator
+        Dim strWinnerOne As String
+
+        'Get a random number in the range of 0 through 1.
+        intWinner1 = rand.Next(2)
+        ' Display the Winner
+        If intWinner1 = 0 Then
+            ' 0 means txtseed1 is the winner
+            strWinnerOne = txtSeed1.Text
+        Else
+            ' 1 means txtseed2 is the winner
+            strWinnerOne = txtSeed2.Text
+        End If
+        lblChampion.Text = strWinnerOne
+    End Sub
 End Class
