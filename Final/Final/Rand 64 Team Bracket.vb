@@ -1,4 +1,8 @@
 ﻿Public Class Rand_64_Team_Bracket
+    Dim startSoundSystemYouCanDoit As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/you-can-do-it.wav")
+    Dim startSoundSystemYourALmostThere As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/youre-almost-there.wav")
+    Dim startSoundSystemYouGotIt As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/people_sound_effects/you_got_it_2.wav")
+    Dim startSoundSystemWinner As New System.Media.SoundPlayer("http://static1.grsites.com/archive/sounds/people/people093.wav")
 
     Private Sub btnRound1_Click(sender As Object, e As EventArgs) Handles btnRound1.Click
         Dim intWinner1 As Integer
@@ -458,7 +462,7 @@
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Round2.Click
         Dim intWinner1 As Integer
         Dim intWinner2 As Integer
         Dim intWinner3 As Integer
@@ -670,7 +674,7 @@
         lblR3S6.Text = strWinnerOne
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Round3.Click
         Dim intWinner1 As Integer
         Dim intWinner2 As Integer
         Dim intWinner3 As Integer
@@ -776,7 +780,7 @@
         lblR4S6.Text = strWinnerOne
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Round4.Click
         Dim intWinner1 As Integer
         Dim intWinner2 As Integer
         Dim intWinner3 As Integer
@@ -834,7 +838,7 @@
         lblR5S3.Text = strWinnerOne
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Round5.Click
         Dim intWinner1 As Integer
         Dim intWinner2 As Integer
 
@@ -869,13 +873,12 @@
         lblR6S2.Text = strWinnerOne
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Round6.Click
+        startSoundSystemWinner.Play()
         Dim intWinner1 As Integer
-
 
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
-
         For intWinner = 0 To 1
             intWinner1 = rand.Next(2)
 
@@ -889,10 +892,6 @@
         Else
             strWinnerOne = lblR6S2.Text
         End If
-        lblWinner.Text = strWinnerOne
-    End Sub
-
-    Private Sub Rand_64_Team_Bracket_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+            lblWinner.Text = strWinnerOne
     End Sub
 End Class

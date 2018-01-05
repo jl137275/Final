@@ -1,5 +1,5 @@
 ﻿Public Class Rand_16_Team_Bracket
-
+    Dim startSoundSystemWinner As New System.Media.SoundPlayer("http://static1.grsites.com/archive/sounds/people/people093.wav")
 	Private Sub btnRound1_Click(sender As Object, e As EventArgs) Handles btnRound1.Click
 		Dim intWinner1 As Integer ' To indicate which team wins
 		Dim intWinner2 As Integer '
@@ -205,6 +205,8 @@
 		Dim intWinner1 As Integer
 		Dim rand As New Random ' Random number generator
 		Dim strWinnerOne As String
+
+        startSoundSystemWinner.Play()
 
 		'Get a random number in the range of 0 through 1.
 		intWinner1 = rand.Next(2)
