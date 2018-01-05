@@ -12,7 +12,7 @@
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
-        For intWinner = 0 To 3
+        For intWinner = 0 To 7
             intWinner1 = rand.Next(2)
             intWinner2 = rand.Next(2)
             intWinner3 = rand.Next(2)
@@ -110,12 +110,12 @@
 		Dim rand As New Random ' Random number generator
 		Dim strWinnerOne As String
 
-		For intWinner = 0 To 3
-			intWinner1 = rand.Next(2)
-			intWinner2 = rand.Next(2)
-			intWinner3 = rand.Next(2)
-			intWinner4 = rand.Next(2)
-		Next
+        For intWinner = 0 To 3
+            intWinner1 = rand.Next(2)
+            intWinner2 = rand.Next(2)
+            intWinner3 = rand.Next(2)
+            intWinner4 = rand.Next(2)
+        Next
 		'Get a random number in the range of 0 through 1.
 		intWinner1 = rand.Next(2)
 		' Display the Winner

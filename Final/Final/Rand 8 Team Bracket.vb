@@ -92,11 +92,6 @@
         End If
         lblround3Seed2.Text = strWinnerOne
     End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblChampion.Click
-
-    End Sub
-
     Private Sub btnRound3_Click(sender As Object, e As EventArgs) Handles btnRound3.Click
         Dim intWinner1 As Integer
         Dim rand As New Random ' Random number generator
@@ -109,7 +104,7 @@
             ' 0 means txtseed1 is the winner
             strWinnerOne = lblRound3Seed1.Text
         Else
-            ' 1 means lblround2seed4 is the winner
+            ' 1 means txtseed2 is the winner
             strWinnerOne = lblround3Seed2.Text
         End If
         lblChampion.Text = strWinnerOne
