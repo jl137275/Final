@@ -28,11 +28,13 @@ Partial Class Bracket_Chooser
         Me.btn32Team = New System.Windows.Forms.Button()
         Me.btn64Team = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btn4Team
         '
-        Me.btn4Team.Location = New System.Drawing.Point(3, 77)
+        Me.btn4Team.Location = New System.Drawing.Point(1, 147)
         Me.btn4Team.Name = "btn4Team"
         Me.btn4Team.Size = New System.Drawing.Size(75, 35)
         Me.btn4Team.TabIndex = 0
@@ -41,7 +43,7 @@ Partial Class Bracket_Chooser
         '
         'btn8Team
         '
-        Me.btn8Team.Location = New System.Drawing.Point(99, 77)
+        Me.btn8Team.Location = New System.Drawing.Point(98, 147)
         Me.btn8Team.Name = "btn8Team"
         Me.btn8Team.Size = New System.Drawing.Size(75, 35)
         Me.btn8Team.TabIndex = 1
@@ -50,7 +52,7 @@ Partial Class Bracket_Chooser
         '
         'btn16Team
         '
-        Me.btn16Team.Location = New System.Drawing.Point(197, 77)
+        Me.btn16Team.Location = New System.Drawing.Point(197, 147)
         Me.btn16Team.Name = "btn16Team"
         Me.btn16Team.Size = New System.Drawing.Size(75, 35)
         Me.btn16Team.TabIndex = 2
@@ -59,7 +61,7 @@ Partial Class Bracket_Chooser
         '
         'btn32Team
         '
-        Me.btn32Team.Location = New System.Drawing.Point(56, 140)
+        Me.btn32Team.Location = New System.Drawing.Point(43, 200)
         Me.btn32Team.Name = "btn32Team"
         Me.btn32Team.Size = New System.Drawing.Size(75, 33)
         Me.btn32Team.TabIndex = 3
@@ -68,7 +70,7 @@ Partial Class Bracket_Chooser
         '
         'btn64Team
         '
-        Me.btn64Team.Location = New System.Drawing.Point(156, 140)
+        Me.btn64Team.Location = New System.Drawing.Point(156, 200)
         Me.btn64Team.Name = "btn64Team"
         Me.btn64Team.Size = New System.Drawing.Size(75, 33)
         Me.btn64Team.TabIndex = 4
@@ -79,17 +81,28 @@ Partial Class Bracket_Chooser
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(39, 24)
+        Me.Label1.Location = New System.Drawing.Point(39, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(192, 20)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Choose a Bracket Size"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Final.My.Resources.Resources.president_obama_2013_ncaa_tournament_bracket
+        Me.PictureBox1.Location = New System.Drawing.Point(53, 32)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(162, 109)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 6
+        Me.PictureBox1.TabStop = False
+        '
         'Bracket_Chooser
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.ClientSize = New System.Drawing.Size(302, 272)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btn64Team)
         Me.Controls.Add(Me.btn32Team)
@@ -98,6 +111,7 @@ Partial Class Bracket_Chooser
         Me.Controls.Add(Me.btn4Team)
         Me.Name = "Bracket_Chooser"
         Me.Text = "Bracket_Chooser"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -108,4 +122,5 @@ Partial Class Bracket_Chooser
     Friend WithEvents btn32Team As System.Windows.Forms.Button
     Friend WithEvents btn64Team As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class
