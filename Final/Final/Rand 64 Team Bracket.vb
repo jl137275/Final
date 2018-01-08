@@ -3,6 +3,8 @@
     Dim startSoundSystemYourALmostThere As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/youre-almost-there.wav")
     Dim startSoundSystemYouGotIt As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/people_sound_effects/you_got_it_2.wav")
     Dim startSoundSystemWinner As New System.Media.SoundPlayer("http://static1.grsites.com/archive/sounds/people/people093.wav")
+    Dim startSoundSystemNiceWork As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/nice-work.wav")
+    Dim startSoundSystemApluase As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/people_sound_effects/applause-1.wav")
 
     Private Sub btnRound1_Click(sender As Object, e As EventArgs) Handles btnRound1.Click
         Dim intWinner1 As Integer
@@ -37,6 +39,8 @@
         Dim intWinner30 As Integer
         Dim intWinner31 As Integer
         Dim intWinner32 As Integer
+
+        startSoundSystemYouGotIt.Play()
 
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
@@ -480,6 +484,8 @@
         Dim intWinner15 As Integer
         Dim intWinner16 As Integer
 
+        startSoundSystemNiceWork.Play()
+
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
@@ -684,6 +690,8 @@
         Dim intWinner7 As Integer
         Dim intWinner8 As Integer
 
+        startSoundSystemApluase.Play()
+
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
@@ -786,6 +794,8 @@
         Dim intWinner3 As Integer
         Dim intWinner4 As Integer
 
+        startSoundSystemYouCanDoit.Play()
+
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
@@ -842,6 +852,7 @@
         Dim intWinner1 As Integer
         Dim intWinner2 As Integer
 
+        startSoundSystemYourALmostThere.Play()
 
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String

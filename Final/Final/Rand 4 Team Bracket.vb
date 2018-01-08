@@ -1,8 +1,12 @@
 ﻿Public Class Rand_4_Team_Bracket
-
+    Dim startSoundSystemYourALmostThere As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/youre-almost-there.wav")
+    Dim startSoundSystemWinner As New System.Media.SoundPlayer("http://static1.grsites.com/archive/sounds/people/people093.wav")
     Private Sub btnRound1_Click(sender As Object, e As EventArgs) Handles btnRound1.Click
         Dim intWinner1 As Integer
         Dim intWinner2 As Integer
+
+        startSoundSystemYourALmostThere.Play()
+
         Dim rand As New Random
         Dim strWinnerOne As String
 
@@ -28,6 +32,9 @@
 
     Private Sub btnRound2_Click(sender As Object, e As EventArgs) Handles btnRound2.Click
         Dim intWinner1 As Integer
+
+        startSoundSystemWinner.Play()
+
         Dim rand As New Random
         Dim strWinnerOne As String
 
