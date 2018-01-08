@@ -23,11 +23,11 @@ Partial Class Rand_64_Team_Bracket
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Rand_64_Team_Bracket))
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Round6 = New System.Windows.Forms.Button()
+        Me.Round5 = New System.Windows.Forms.Button()
+        Me.Round4 = New System.Windows.Forms.Button()
+        Me.Round3 = New System.Windows.Forms.Button()
+        Me.Round2 = New System.Windows.Forms.Button()
         Me.btnRound1 = New System.Windows.Forms.Button()
         Me.lblR6S1 = New System.Windows.Forms.Label()
         Me.lblR6S2 = New System.Windows.Forms.Label()
@@ -160,50 +160,50 @@ Partial Class Rand_64_Team_Bracket
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button6
+        'Round6
         '
-        Me.Button6.Location = New System.Drawing.Point(816, 748)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 23)
-        Me.Button6.TabIndex = 390
-        Me.Button6.Text = "Button6"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Round6.Location = New System.Drawing.Point(816, 748)
+        Me.Round6.Name = "Round6"
+        Me.Round6.Size = New System.Drawing.Size(75, 23)
+        Me.Round6.TabIndex = 390
+        Me.Round6.Text = "Round 6"
+        Me.Round6.UseVisualStyleBackColor = True
         '
-        'Button5
+        'Round5
         '
-        Me.Button5.Location = New System.Drawing.Point(735, 748)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 389
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Round5.Location = New System.Drawing.Point(735, 748)
+        Me.Round5.Name = "Round5"
+        Me.Round5.Size = New System.Drawing.Size(75, 23)
+        Me.Round5.TabIndex = 389
+        Me.Round5.Text = "Round 5"
+        Me.Round5.UseVisualStyleBackColor = True
         '
-        'Button4
+        'Round4
         '
-        Me.Button4.Location = New System.Drawing.Point(654, 748)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 388
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Round4.Location = New System.Drawing.Point(654, 748)
+        Me.Round4.Name = "Round4"
+        Me.Round4.Size = New System.Drawing.Size(75, 23)
+        Me.Round4.TabIndex = 388
+        Me.Round4.Text = "Round 4"
+        Me.Round4.UseVisualStyleBackColor = True
         '
-        'Button3
+        'Round3
         '
-        Me.Button3.Location = New System.Drawing.Point(573, 748)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 387
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Round3.Location = New System.Drawing.Point(573, 748)
+        Me.Round3.Name = "Round3"
+        Me.Round3.Size = New System.Drawing.Size(75, 23)
+        Me.Round3.TabIndex = 387
+        Me.Round3.Text = "Round 3"
+        Me.Round3.UseVisualStyleBackColor = True
         '
-        'Button2
+        'Round2
         '
-        Me.Button2.Location = New System.Drawing.Point(492, 748)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 386
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Round2.Location = New System.Drawing.Point(492, 748)
+        Me.Round2.Name = "Round2"
+        Me.Round2.Size = New System.Drawing.Size(75, 23)
+        Me.Round2.TabIndex = 386
+        Me.Round2.Text = "Round 2"
+        Me.Round2.UseVisualStyleBackColor = True
         '
         'btnRound1
         '
@@ -1308,11 +1308,11 @@ Partial Class Rand_64_Team_Bracket
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1283, 840)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Round6)
+        Me.Controls.Add(Me.Round5)
+        Me.Controls.Add(Me.Round4)
+        Me.Controls.Add(Me.Round3)
+        Me.Controls.Add(Me.Round2)
         Me.Controls.Add(Me.btnRound1)
         Me.Controls.Add(Me.lblR6S1)
         Me.Controls.Add(Me.lblR6S2)
@@ -1449,11 +1449,11 @@ Partial Class Rand_64_Team_Bracket
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Round6 As System.Windows.Forms.Button
+    Friend WithEvents Round5 As System.Windows.Forms.Button
+    Friend WithEvents Round4 As System.Windows.Forms.Button
+    Friend WithEvents Round3 As System.Windows.Forms.Button
+    Friend WithEvents Round2 As System.Windows.Forms.Button
     Friend WithEvents btnRound1 As System.Windows.Forms.Button
     Friend WithEvents lblR6S1 As System.Windows.Forms.Label
     Friend WithEvents lblR6S2 As System.Windows.Forms.Label

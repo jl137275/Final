@@ -1,17 +1,35 @@
 ﻿Public Class Rand_16_Team_Bracket
-
+    Dim startSoundSystemYouCanDoit As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/you-can-do-it.wav")
+    Dim startSoundSystemNiceWork As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/nice-work.wav")
+    Dim startSoundSystemYourALmostThere As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/youre-almost-there.wav")
+    Dim startSoundSystemWinner As New System.Media.SoundPlayer("http://static1.grsites.com/archive/sounds/people/people093.wav")
 	Private Sub btnRound1_Click(sender As Object, e As EventArgs) Handles btnRound1.Click
-        Dim intWinner1 As Integer ' To indicate which team wins
-        Dim intWinner2 As Integer '
-        Dim intWinner3 As Integer
-        Dim intWinner4 As Integer
-        Dim intWinner5 As Integer
-        Dim intWinner6 As Integer
-        Dim intWinner7 As Integer
-        Dim intWinner8 As Integer
-        Dim rand As New Random ' Random number generator
-        Dim strWinnerOne As String
+		Dim intWinner1 As Integer ' To indicate which team wins
+		Dim intWinner2 As Integer '
+		Dim intWinner3 As Integer
+		Dim intWinner4 As Integer
+		Dim intWinner5 As Integer
+		Dim intWinner6 As Integer
+		Dim intWinner7 As Integer
+		Dim intWinner8 As Integer
 
+        startSoundSystemNiceWork.Play()
+
+        Dim rand As New Random ' Random number generator
+		Dim strWinnerOne As String
+
+		For intWinner = 0 To 3
+			intWinner1 = rand.Next(2)
+			intWinner2 = rand.Next(2)
+			intWinner3 = rand.Next(2)
+			intWinner4 = rand.Next(2)
+			intWinner5 = rand.Next(2)
+			intWinner6 = rand.Next(2)
+			intWinner7 = rand.Next(2)
+			intWinner8 = rand.Next(2)
+
+		Next
+       
         For intWinner = 0 To 7
             intWinner1 = rand.Next(2)
             intWinner2 = rand.Next(2)
@@ -107,7 +125,10 @@
 		Dim intWinner2 As Integer '
 		Dim intWinner3 As Integer
 		Dim intWinner4 As Integer
-		Dim rand As New Random ' Random number generator
+
+        startSoundSystemYouCanDoit.Play()
+
+        Dim rand As New Random ' Random number generator
 		Dim strWinnerOne As String
 
         For intWinner = 0 To 3
@@ -167,7 +188,10 @@
 	Private Sub btnRound3_Click(sender As Object, e As EventArgs) Handles btnRound3.Click
 		Dim intWinner1 As Integer
 		Dim intWinner2 As Integer
-		Dim rand As New Random ' Random number generator
+
+        startSoundSystemYourALmostThere.Play()
+
+        Dim rand As New Random ' Random number generator
 		Dim strWinnerOne As String
 
 		For intWinner = 0 To 1
@@ -205,6 +229,8 @@
 		Dim intWinner1 As Integer
 		Dim rand As New Random ' Random number generator
 		Dim strWinnerOne As String
+
+        startSoundSystemWinner.Play()
 
 		'Get a random number in the range of 0 through 1.
 		intWinner1 = rand.Next(2)
