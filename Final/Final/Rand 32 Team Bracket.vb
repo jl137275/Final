@@ -1,5 +1,9 @@
 ﻿Public Class Rand_32_Team_Bracket
-
+    Dim startSoundSystemYouCanDoit As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/you-can-do-it.wav")
+    Dim startSoundSystemYourALmostThere As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/youre-almost-there.wav")
+    Dim startSoundSystemYouGotIt As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/people_sound_effects/you_got_it_2.wav")
+    Dim startSoundSystemWinner As New System.Media.SoundPlayer("http://static1.grsites.com/archive/sounds/people/people093.wav")
+    Dim startSoundSystemNiceWork As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/nice-work.wav")
     Private Sub btnRound1_Click(sender As Object, e As EventArgs) Handles btnRound1.Click
         Dim intWinner1 As Integer ' To indicate which team wins
         Dim intWinner2 As Integer
@@ -17,6 +21,9 @@
         Dim intWinner14 As Integer
         Dim intWinner15 As Integer
         Dim intWinner16 As Integer
+
+        startSoundSystemYouGotIt.Play()
+
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
@@ -209,8 +216,10 @@
         Dim intWinner6 As Integer
         Dim intWinner7 As Integer
         Dim intWinner8 As Integer
-        Dim rand As New Random ' Random number generator
 
+        startSoundSystemNiceWork.Play()
+
+        Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
         For intWinner = 0 To 7
@@ -305,6 +314,9 @@
         Dim intWinner2 As Integer '
         Dim intWinner3 As Integer
         Dim intWinner4 As Integer
+
+        startSoundSystemYouCanDoit.Play()
+
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
@@ -359,6 +371,9 @@
     Private Sub Round4_Click(sender As Object, e As EventArgs) Handles Round4.Click
         Dim intWinner1 As Integer
         Dim intWinner2 As Integer
+
+        startSoundSystemYourALmostThere.Play()
+
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
@@ -395,6 +410,9 @@
 
     Private Sub Round5_Click(sender As Object, e As EventArgs) Handles Round5.Click
         Dim intWinner1 As Integer
+
+        startSoundSystemWinner.Play()
+
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
