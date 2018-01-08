@@ -29,6 +29,28 @@
 			intWinner8 = rand.Next(2)
 
 		Next
+        Dim intWinner1 As Integer ' To indicate which team wins
+        Dim intWinner2 As Integer '
+        Dim intWinner3 As Integer
+        Dim intWinner4 As Integer
+        Dim intWinner5 As Integer
+        Dim intWinner6 As Integer
+        Dim intWinner7 As Integer
+        Dim intWinner8 As Integer
+        Dim rand As New Random ' Random number generator
+        Dim strWinnerOne As String
+
+        For intWinner = 0 To 7
+            intWinner1 = rand.Next(2)
+            intWinner2 = rand.Next(2)
+            intWinner3 = rand.Next(2)
+            intWinner4 = rand.Next(2)
+            intWinner5 = rand.Next(2)
+            intWinner6 = rand.Next(2)
+            intWinner7 = rand.Next(2)
+            intWinner8 = rand.Next(2)
+
+        Next
 
 		'Get a random number in the range of 0 through 1.
 		intWinner1 = rand.Next(2)
@@ -40,7 +62,7 @@
 			' 1 means txtseed2 is the winner
 			strWinnerOne = txtSeed16.Text
 		End If
-		lblSeed1R2.Text = strWinnerOne
+        lblSeed1R2.Text = strWinnerOne
 
 		If intWinner2 = 0 Then
 			' 0 means txtseed4 is the winner
@@ -119,12 +141,12 @@
         Dim rand As New Random ' Random number generator
 		Dim strWinnerOne As String
 
-		For intWinner = 0 To 3
-			intWinner1 = rand.Next(2)
-			intWinner2 = rand.Next(2)
-			intWinner3 = rand.Next(2)
-			intWinner4 = rand.Next(2)
-		Next
+        For intWinner = 0 To 3
+            intWinner1 = rand.Next(2)
+            intWinner2 = rand.Next(2)
+            intWinner3 = rand.Next(2)
+            intWinner4 = rand.Next(2)
+        Next
 		'Get a random number in the range of 0 through 1.
 		intWinner1 = rand.Next(2)
 		' Display the Winner

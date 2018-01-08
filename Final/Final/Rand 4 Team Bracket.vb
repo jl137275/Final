@@ -37,7 +37,6 @@
 
         Dim rand As New Random
         Dim strWinnerOne As String
-
         intWinner1 = rand.Next(2)
         If intWinner1 = 0 Then
             strWinnerOne = lblSeed1R2.Text
@@ -45,6 +44,10 @@
             strWinnerOne = lblSeed2R2.Text
         End If
         lblChampion.Text = strWinnerOne
+    End Sub
+
+    Private Sub txtSeed1_TextChanged(sender As Object, e As EventArgs) Handles txtSeed1.TextChanged
+
     End Sub
 
 End Class

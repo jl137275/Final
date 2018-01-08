@@ -2,6 +2,12 @@
 <MyApplicationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MySubMain>true</MySubMain>
   <MainForm>Rand_4_Team_Bracket</MainForm>
+  <MainForm>Menu</MainForm>
+
+
+  <MainForm>Rand_64_Team_Bracket</MainForm>
+
+
   <SingleInstance>false</SingleInstance>
   <ShutdownMode>0</ShutdownMode>
   <EnableVisualStyles>true</EnableVisualStyles>

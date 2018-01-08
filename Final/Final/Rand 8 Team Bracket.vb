@@ -116,7 +116,7 @@
             ' 0 means txtseed1 is the winner
             strWinnerOne = lblRound3Seed1.Text
         Else
-            ' 1 means lblround2seed4 is the winner
+            ' 1 means txtseed2 is the winner
             strWinnerOne = lblround3Seed2.Text
         End If
         lblChampion.Text = strWinnerOne

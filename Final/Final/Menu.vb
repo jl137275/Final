@@ -10,7 +10,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnStart.Click
-        Dim Box = New Bracket
+        Dim Box = New Bracket_Chooser
         Box.Show()
     End Sub
 End Class
