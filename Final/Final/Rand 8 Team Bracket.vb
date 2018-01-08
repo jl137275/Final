@@ -5,7 +5,7 @@
     Private Sub btnRound1_Click(sender As Object, e As EventArgs) Handles btnRound1.Click
 
         Dim intWinner1 As Integer ' To indicate which team wins
-        Dim intWinner2 As Integer '
+        Dim intWinner2 As Integer
         Dim intWinner3 As Integer
         Dim intWinner4 As Integer
 
@@ -29,7 +29,7 @@
             ' 0 means txtseed1 is the winner
             strWinnerOne = txtSeed1.Text
         Else
-            ' 1 means txtseed2 is the winner
+            ' 1 means txtseed8 is the winner
             strWinnerOne = txtSeed8.Text
         End If
         lblRound2Seed1.Text = strWinnerOne
