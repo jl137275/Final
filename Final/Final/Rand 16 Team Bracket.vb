@@ -1,5 +1,8 @@
 ﻿Public Class Rand_16_Team_Bracket
-
+    Dim startSoundSystemYouCanDoit As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/you-can-do-it.wav")
+    Dim startSoundSystemNiceWork As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/nice-work.wav")
+    Dim startSoundSystemYourALmostThere As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/youre-almost-there.wav")
+    Dim startSoundSystemWinner As New System.Media.SoundPlayer("http://static1.grsites.com/archive/sounds/people/people093.wav")
 	Private Sub btnRound1_Click(sender As Object, e As EventArgs) Handles btnRound1.Click
 		Dim intWinner1 As Integer ' To indicate which team wins
 		Dim intWinner2 As Integer '
@@ -9,7 +12,10 @@
 		Dim intWinner6 As Integer
 		Dim intWinner7 As Integer
 		Dim intWinner8 As Integer
-		Dim rand As New Random ' Random number generator
+
+        startSoundSystemNiceWork.Play()
+
+        Dim rand As New Random ' Random number generator
 		Dim strWinnerOne As String
 
 		For intWinner = 0 To 3
@@ -23,6 +29,18 @@
 			intWinner8 = rand.Next(2)
 
 		Next
+       
+        For intWinner = 0 To 7
+            intWinner1 = rand.Next(2)
+            intWinner2 = rand.Next(2)
+            intWinner3 = rand.Next(2)
+            intWinner4 = rand.Next(2)
+            intWinner5 = rand.Next(2)
+            intWinner6 = rand.Next(2)
+            intWinner7 = rand.Next(2)
+            intWinner8 = rand.Next(2)
+
+        Next
 
 		'Get a random number in the range of 0 through 1.
 		intWinner1 = rand.Next(2)
@@ -34,7 +52,7 @@
 			' 1 means txtseed2 is the winner
 			strWinnerOne = txtSeed16.Text
 		End If
-		lblSeed1R2.Text = strWinnerOne
+        lblSeed1R2.Text = strWinnerOne
 
 		If intWinner2 = 0 Then
 			' 0 means txtseed4 is the winner
@@ -107,23 +125,24 @@
 		Dim intWinner2 As Integer '
 		Dim intWinner3 As Integer
 		Dim intWinner4 As Integer
-		Dim rand As New Random ' Random number generator
+
+        startSoundSystemYouCanDoit.Play()
+
+        Dim rand As New Random ' Random number generator
 		Dim strWinnerOne As String
 
-		For intWinner = 0 To 3
-			intWinner1 = rand.Next(2)
-			intWinner2 = rand.Next(2)
-			intWinner3 = rand.Next(2)
-			intWinner4 = rand.Next(2)
-		Next
+        For intWinner = 0 To 3
+            intWinner1 = rand.Next(2)
+            intWinner2 = rand.Next(2)
+            intWinner3 = rand.Next(2)
+            intWinner4 = rand.Next(2)
+        Next
 		'Get a random number in the range of 0 through 1.
 		intWinner1 = rand.Next(2)
 		' Display the Winner
 		If intWinner1 = 0 Then
-			' 0 means txtseed1 is the winner
 			strWinnerOne = lblSeed1R2.Text
 		Else
-				' 1 means lblround2seed4 is the winner
 				strWinnerOne = lblSeed5R2.Text
 			End If
 			lblSeed1R3.Text = strWinnerOne
@@ -132,10 +151,8 @@
 			intWinner2 = rand.Next(2)
 			' Display the Winner
 			If intWinner2 = 0 Then
-				' 0 means txtseed1 is the winner
-				strWinnerOne = lblSeed4R2.Text
+            strWinnerOne = lblSeed4R2.Text
 			Else
-				' 1 means lblround2seed4 is the winner
 				strWinnerOne = lblSeed8R2.Text
 			End If
 		lblSeed4R3.Text = strWinnerOne
@@ -143,10 +160,8 @@
 		intWinner3 = rand.Next(2)
 		' Display the Winner
 		If intWinner3 = 0 Then
-			' 0 means txtseed1 is the winner
 			strWinnerOne = lblSeed2R2.Text
 		Else
-			' 1 means lblround2seed4 is the winner
 			strWinnerOne = lblSeed6R2.Text
 		End If
 		lblSeed2R3.Text = strWinnerOne
@@ -155,10 +170,8 @@
 		intWinner4 = rand.Next(2)
 		' Display the Winner
 		If intWinner4 = 0 Then
-			' 0 means txtseed1 is the winner
 			strWinnerOne = lblSeed3R2.Text
 		Else
-			' 1 means lblround2seed4 is the winner
 			strWinnerOne = lblSeed7R2.Text
 		End If
 		lblSeed3R3.Text = strWinnerOne
@@ -167,7 +180,10 @@
 	Private Sub btnRound3_Click(sender As Object, e As EventArgs) Handles btnRound3.Click
 		Dim intWinner1 As Integer
 		Dim intWinner2 As Integer
-		Dim rand As New Random ' Random number generator
+
+        startSoundSystemYourALmostThere.Play()
+
+        Dim rand As New Random ' Random number generator
 		Dim strWinnerOne As String
 
 		For intWinner = 0 To 1
@@ -180,10 +196,8 @@
 		intWinner1 = rand.Next(2)
 		' Display the Winner
 		If intWinner1 = 0 Then
-			' 0 means txtseed1 is the winner
 			strWinnerOne = lblSeed1R3.Text
 		Else
-			' 1 means lblround2seed4 is the winner
 			strWinnerOne = lblSeed4R3.Text
 		End If
 		lblSeed1R4.Text = strWinnerOne
@@ -192,10 +206,8 @@
 		intWinner2 = rand.Next(2)
 		' Display the Winner
 		If intWinner2 = 0 Then
-			' 0 means txtseed1 is the winner
 			strWinnerOne = lblSeed2R3.Text
 		Else
-			' 1 means lblround2seed4 is the winner
 			strWinnerOne = lblSeed3R3.Text
 		End If
 		lblSeed2R4.Text = strWinnerOne
@@ -206,14 +218,16 @@
 		Dim rand As New Random ' Random number generator
 		Dim strWinnerOne As String
 
+        startSoundSystemWinner.Play()
+
 		'Get a random number in the range of 0 through 1.
 		intWinner1 = rand.Next(2)
 		' Display the Winner
 		If intWinner1 = 0 Then
-			' 0 means txtseed1 is the winner
+            ' 0 means lblSeed1R4 is the winner
 			strWinnerOne = lblSeed1R4.Text
 		Else
-			' 1 means lblround2seed4 is the winner
+            ' 1 means lblseed2r4 is the winner
 			strWinnerOne = lblSeed2R4.Text
 		End If
 		lblChampion.Text = strWinnerOne

@@ -1,10 +1,16 @@
 ﻿Public Class Bracket
+    Dim startSoundSystemNiceWork As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/nice-work.wav")
+    Dim startSoundSystemYourALmostThere As New System.Media.SoundPlayer("http://www.pacdv.com/sounds/voices/youre-almost-there.wav")
+    Dim startSoundSystemWinner As New System.Media.SoundPlayer("http://static1.grsites.com/archive/sounds/people/people093.wav")
     Private Sub btnRound1_Click(sender As Object, e As EventArgs) Handles btnRound1.Click
 
         Dim intWinner1 As Integer ' To indicate which team wins
-        Dim intWinner2 As Integer '
+        Dim intWinner2 As Integer
         Dim intWinner3 As Integer
         Dim intWinner4 As Integer
+
+        startSoundSystemNiceWork.Play()
+
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
@@ -23,7 +29,7 @@
             ' 0 means txtseed1 is the winner
             strWinnerOne = txtSeed1.Text
         Else
-            ' 1 means txtseed2 is the winner
+            ' 1 means txtseed8 is the winner
             strWinnerOne = txtSeed8.Text
         End If
         lblRound2Seed1.Text = strWinnerOne
@@ -59,6 +65,9 @@
     Private Sub btnRound2_Click(sender As Object, e As EventArgs) Handles btnRound2.Click
         Dim intWinner1 As Integer
         Dim intWinner2 As Integer
+
+        startSoundSystemYourALmostThere.Play()
+
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
@@ -72,7 +81,7 @@
         intWinner1 = rand.Next(2)
         ' Display the Winner
         If intWinner1 = 0 Then
-            ' 0 means txtseed1 is the winner
+            ' 0 means lblround2seed1 is the winner
             strWinnerOne = lblRound2Seed1.Text
         Else
             ' 1 means lblround2seed4 is the winner
@@ -84,21 +93,19 @@
         intWinner2 = rand.Next(2)
         ' Display the Winner
         If intWinner2 = 0 Then
-            ' 0 means txtseed1 is the winner
+            ' 0 means lblround2seed2 is the winner
             strWinnerOne = lblRound2Seed2.Text
         Else
-            ' 1 means lblround2seed4 is the winner
+            ' 1 means lblround2seed3 is the winner
             strWinnerOne = lblRound2Seed3.Text
         End If
         lblround3Seed2.Text = strWinnerOne
     End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblChampion.Click
-
-    End Sub
-
     Private Sub btnRound3_Click(sender As Object, e As EventArgs) Handles btnRound3.Click
         Dim intWinner1 As Integer
+
+        startSoundSystemWinner.Play()
+
         Dim rand As New Random ' Random number generator
         Dim strWinnerOne As String
 
@@ -106,10 +113,10 @@
         intWinner1 = rand.Next(2)
         ' Display the Winner
         If intWinner1 = 0 Then
-            ' 0 means txtseed1 is the winner
+            ' 0 means lblround3seed1 is the winner
             strWinnerOne = lblRound3Seed1.Text
         Else
-            ' 1 means lblround2seed4 is the winner
+            ' 1 means lblround3seed2 is the winner
             strWinnerOne = lblround3Seed2.Text
         End If
         lblChampion.Text = strWinnerOne

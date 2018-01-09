@@ -34,45 +34,50 @@ Partial Class Bracket_Chooser
         '
         'btn4Team
         '
-        Me.btn4Team.Location = New System.Drawing.Point(1, 147)
+        Me.btn4Team.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn4Team.Location = New System.Drawing.Point(105, 343)
         Me.btn4Team.Name = "btn4Team"
-        Me.btn4Team.Size = New System.Drawing.Size(75, 35)
+        Me.btn4Team.Size = New System.Drawing.Size(119, 65)
         Me.btn4Team.TabIndex = 0
         Me.btn4Team.Text = "4 team"
         Me.btn4Team.UseVisualStyleBackColor = True
         '
         'btn8Team
         '
-        Me.btn8Team.Location = New System.Drawing.Point(98, 147)
+        Me.btn8Team.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn8Team.Location = New System.Drawing.Point(291, 344)
         Me.btn8Team.Name = "btn8Team"
-        Me.btn8Team.Size = New System.Drawing.Size(75, 35)
+        Me.btn8Team.Size = New System.Drawing.Size(119, 65)
         Me.btn8Team.TabIndex = 1
         Me.btn8Team.Text = "8 team"
         Me.btn8Team.UseVisualStyleBackColor = True
         '
         'btn16Team
         '
-        Me.btn16Team.Location = New System.Drawing.Point(197, 147)
+        Me.btn16Team.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn16Team.Location = New System.Drawing.Point(483, 344)
         Me.btn16Team.Name = "btn16Team"
-        Me.btn16Team.Size = New System.Drawing.Size(75, 35)
+        Me.btn16Team.Size = New System.Drawing.Size(119, 66)
         Me.btn16Team.TabIndex = 2
         Me.btn16Team.Text = "16 team"
         Me.btn16Team.UseVisualStyleBackColor = True
         '
         'btn32Team
         '
-        Me.btn32Team.Location = New System.Drawing.Point(43, 200)
+        Me.btn32Team.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn32Team.Location = New System.Drawing.Point(186, 443)
         Me.btn32Team.Name = "btn32Team"
-        Me.btn32Team.Size = New System.Drawing.Size(75, 33)
+        Me.btn32Team.Size = New System.Drawing.Size(117, 64)
         Me.btn32Team.TabIndex = 3
         Me.btn32Team.Text = "32 team"
         Me.btn32Team.UseVisualStyleBackColor = True
         '
         'btn64Team
         '
-        Me.btn64Team.Location = New System.Drawing.Point(156, 200)
+        Me.btn64Team.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn64Team.Location = New System.Drawing.Point(389, 443)
         Me.btn64Team.Name = "btn64Team"
-        Me.btn64Team.Size = New System.Drawing.Size(75, 33)
+        Me.btn64Team.Size = New System.Drawing.Size(117, 64)
         Me.btn64Team.TabIndex = 4
         Me.btn64Team.Text = "64 team"
         Me.btn64Team.UseVisualStyleBackColor = True
@@ -80,19 +85,19 @@ Partial Class Bracket_Chooser
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(39, 9)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(202, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(192, 20)
+        Me.Label1.Size = New System.Drawing.Size(311, 31)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Choose a Bracket Size"
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Final.My.Resources.Resources.president_obama_2013_ncaa_tournament_bracket
-        Me.PictureBox1.Location = New System.Drawing.Point(53, 32)
+        Me.PictureBox1.Image = Global.Final.My.Resources.Resources.ad_34525543_273b9f4de0ba8dc7_web
+        Me.PictureBox1.Location = New System.Drawing.Point(78, 43)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(162, 109)
+        Me.PictureBox1.Size = New System.Drawing.Size(553, 280)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
@@ -101,7 +106,7 @@ Partial Class Bracket_Chooser
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(302, 272)
+        Me.ClientSize = New System.Drawing.Size(709, 533)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btn64Team)

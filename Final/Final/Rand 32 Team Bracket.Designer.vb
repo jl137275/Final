@@ -24,7 +24,7 @@ Partial Class Rand_32_Team_Bracket
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Rand_32_Team_Bracket))
         Me.btnRound1 = New System.Windows.Forms.Button()
-        Me.lblR6Seed1 = New System.Windows.Forms.Label()
+        Me.lblChampion = New System.Windows.Forms.Label()
         Me.lblR5Seed2 = New System.Windows.Forms.Label()
         Me.lblR5Seed1 = New System.Windows.Forms.Label()
         Me.lblR4Seed3 = New System.Windows.Forms.Label()
@@ -88,26 +88,62 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed32 = New System.Windows.Forms.TextBox()
         Me.txtSeed1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Round2 = New System.Windows.Forms.Button()
+        Me.Round3 = New System.Windows.Forms.Button()
+        Me.Round4 = New System.Windows.Forms.Button()
+        Me.Round5 = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnRound1
         '
-        Me.btnRound1.Location = New System.Drawing.Point(60, 3)
+        Me.btnRound1.Location = New System.Drawing.Point(74, 679)
         Me.btnRound1.Name = "btnRound1"
         Me.btnRound1.Size = New System.Drawing.Size(75, 23)
         Me.btnRound1.TabIndex = 133
         Me.btnRound1.Text = "Round 1"
         Me.btnRound1.UseVisualStyleBackColor = True
         '
-        'lblR6Seed1
+        'lblChampion
         '
-        Me.lblR6Seed1.BackColor = System.Drawing.Color.LightGray
-        Me.lblR6Seed1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblR6Seed1.Location = New System.Drawing.Point(377, 554)
-        Me.lblR6Seed1.Name = "lblR6Seed1"
-        Me.lblR6Seed1.Size = New System.Drawing.Size(179, 41)
-        Me.lblR6Seed1.TabIndex = 132
+        Me.lblChampion.BackColor = System.Drawing.Color.LightGray
+        Me.lblChampion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblChampion.Location = New System.Drawing.Point(377, 554)
+        Me.lblChampion.Name = "lblChampion"
+        Me.lblChampion.Size = New System.Drawing.Size(179, 41)
+        Me.lblChampion.TabIndex = 132
         '
         'lblR5Seed2
         '
@@ -385,7 +421,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed11.Location = New System.Drawing.Point(786, 515)
         Me.txtSeed11.Name = "txtSeed11"
         Me.txtSeed11.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed11.TabIndex = 101
+        Me.txtSeed11.TabIndex = 98
         '
         'txtSeed22
         '
@@ -393,7 +429,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed22.Location = New System.Drawing.Point(786, 554)
         Me.txtSeed22.Name = "txtSeed22"
         Me.txtSeed22.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed22.TabIndex = 100
+        Me.txtSeed22.TabIndex = 99
         '
         'txtSeed6
         '
@@ -401,7 +437,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed6.Location = New System.Drawing.Point(786, 592)
         Me.txtSeed6.Name = "txtSeed6"
         Me.txtSeed6.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed6.TabIndex = 99
+        Me.txtSeed6.TabIndex = 100
         '
         'txtSeed27
         '
@@ -409,7 +445,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed27.Location = New System.Drawing.Point(786, 637)
         Me.txtSeed27.Name = "txtSeed27"
         Me.txtSeed27.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed27.TabIndex = 98
+        Me.txtSeed27.TabIndex = 101
         '
         'txtSeed3
         '
@@ -417,7 +453,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed3.Location = New System.Drawing.Point(786, 353)
         Me.txtSeed3.Name = "txtSeed3"
         Me.txtSeed3.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed3.TabIndex = 97
+        Me.txtSeed3.TabIndex = 94
         '
         'txtSeed30
         '
@@ -425,7 +461,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed30.Location = New System.Drawing.Point(786, 392)
         Me.txtSeed30.Name = "txtSeed30"
         Me.txtSeed30.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed30.TabIndex = 96
+        Me.txtSeed30.TabIndex = 95
         '
         'txtSeed14
         '
@@ -433,7 +469,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed14.Location = New System.Drawing.Point(786, 430)
         Me.txtSeed14.Name = "txtSeed14"
         Me.txtSeed14.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed14.TabIndex = 95
+        Me.txtSeed14.TabIndex = 96
         '
         'txtSeed19
         '
@@ -441,7 +477,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed19.Location = New System.Drawing.Point(786, 474)
         Me.txtSeed19.Name = "txtSeed19"
         Me.txtSeed19.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed19.TabIndex = 94
+        Me.txtSeed19.TabIndex = 97
         '
         'txtSeed10
         '
@@ -449,7 +485,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed10.Location = New System.Drawing.Point(786, 189)
         Me.txtSeed10.Name = "txtSeed10"
         Me.txtSeed10.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed10.TabIndex = 93
+        Me.txtSeed10.TabIndex = 90
         '
         'txtSeed23
         '
@@ -457,7 +493,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed23.Location = New System.Drawing.Point(786, 233)
         Me.txtSeed23.Name = "txtSeed23"
         Me.txtSeed23.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed23.TabIndex = 92
+        Me.txtSeed23.TabIndex = 91
         '
         'txtSeed7
         '
@@ -465,7 +501,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed7.Location = New System.Drawing.Point(786, 272)
         Me.txtSeed7.Name = "txtSeed7"
         Me.txtSeed7.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed7.TabIndex = 91
+        Me.txtSeed7.TabIndex = 92
         '
         'txtSeed26
         '
@@ -473,7 +509,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed26.Location = New System.Drawing.Point(786, 312)
         Me.txtSeed26.Name = "txtSeed26"
         Me.txtSeed26.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed26.TabIndex = 90
+        Me.txtSeed26.TabIndex = 93
         '
         'txtSeed2
         '
@@ -481,7 +517,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed2.Location = New System.Drawing.Point(786, 32)
         Me.txtSeed2.Name = "txtSeed2"
         Me.txtSeed2.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed2.TabIndex = 89
+        Me.txtSeed2.TabIndex = 86
         '
         'txtSeed31
         '
@@ -489,7 +525,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed31.Location = New System.Drawing.Point(786, 72)
         Me.txtSeed31.Name = "txtSeed31"
         Me.txtSeed31.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed31.TabIndex = 88
+        Me.txtSeed31.TabIndex = 87
         '
         'txtSeed15
         '
@@ -497,7 +533,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed15.Location = New System.Drawing.Point(786, 110)
         Me.txtSeed15.Name = "txtSeed15"
         Me.txtSeed15.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed15.TabIndex = 87
+        Me.txtSeed15.TabIndex = 88
         '
         'txtSeed18
         '
@@ -505,7 +541,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed18.Location = New System.Drawing.Point(786, 153)
         Me.txtSeed18.Name = "txtSeed18"
         Me.txtSeed18.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed18.TabIndex = 86
+        Me.txtSeed18.TabIndex = 89
         '
         'txtSeed5
         '
@@ -513,7 +549,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed5.Location = New System.Drawing.Point(49, 592)
         Me.txtSeed5.Name = "txtSeed5"
         Me.txtSeed5.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed5.TabIndex = 85
+        Me.txtSeed5.TabIndex = 84
         '
         'txtSeed28
         '
@@ -521,7 +557,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed28.Location = New System.Drawing.Point(49, 637)
         Me.txtSeed28.Name = "txtSeed28"
         Me.txtSeed28.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed28.TabIndex = 84
+        Me.txtSeed28.TabIndex = 85
         '
         'txtSeed13
         '
@@ -529,7 +565,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed13.Location = New System.Drawing.Point(49, 430)
         Me.txtSeed13.Name = "txtSeed13"
         Me.txtSeed13.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed13.TabIndex = 83
+        Me.txtSeed13.TabIndex = 80
         '
         'txtSeed20
         '
@@ -537,7 +573,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed20.Location = New System.Drawing.Point(49, 474)
         Me.txtSeed20.Name = "txtSeed20"
         Me.txtSeed20.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed20.TabIndex = 82
+        Me.txtSeed20.TabIndex = 81
         '
         'txtSeed12
         '
@@ -545,7 +581,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed12.Location = New System.Drawing.Point(49, 515)
         Me.txtSeed12.Name = "txtSeed12"
         Me.txtSeed12.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed12.TabIndex = 81
+        Me.txtSeed12.TabIndex = 82
         '
         'txtSeed21
         '
@@ -553,7 +589,7 @@ Partial Class Rand_32_Team_Bracket
         Me.txtSeed21.Location = New System.Drawing.Point(49, 554)
         Me.txtSeed21.Name = "txtSeed21"
         Me.txtSeed21.Size = New System.Drawing.Size(100, 20)
-        Me.txtSeed21.TabIndex = 80
+        Me.txtSeed21.TabIndex = 83
         '
         'txtSeed29
         '
@@ -646,13 +682,405 @@ Partial Class Rand_32_Team_Bracket
         Me.PictureBox1.TabIndex = 69
         Me.PictureBox1.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(29, 35)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(14, 13)
+        Me.Label1.TabIndex = 134
+        Me.Label1.Text = "1"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(22, 75)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(21, 13)
+        Me.Label2.TabIndex = 135
+        Me.Label2.Text = "32"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(22, 113)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(21, 13)
+        Me.Label3.TabIndex = 136
+        Me.Label3.Text = "16"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(892, 35)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(14, 13)
+        Me.Label4.TabIndex = 137
+        Me.Label4.Text = "2"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(892, 75)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(21, 13)
+        Me.Label5.TabIndex = 138
+        Me.Label5.Text = "31"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(892, 113)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(21, 13)
+        Me.Label6.TabIndex = 139
+        Me.Label6.Text = "15"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(22, 156)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(21, 13)
+        Me.Label7.TabIndex = 140
+        Me.Label7.Text = "17"
+        '
+        'Round2
+        '
+        Me.Round2.Location = New System.Drawing.Point(184, 679)
+        Me.Round2.Name = "Round2"
+        Me.Round2.Size = New System.Drawing.Size(75, 23)
+        Me.Round2.TabIndex = 141
+        Me.Round2.Text = "Round 2"
+        Me.Round2.UseVisualStyleBackColor = True
+        '
+        'Round3
+        '
+        Me.Round3.Location = New System.Drawing.Point(430, 637)
+        Me.Round3.Name = "Round3"
+        Me.Round3.Size = New System.Drawing.Size(75, 23)
+        Me.Round3.TabIndex = 142
+        Me.Round3.Text = "Round 3"
+        Me.Round3.UseVisualStyleBackColor = True
+        '
+        'Round4
+        '
+        Me.Round4.Location = New System.Drawing.Point(670, 679)
+        Me.Round4.Name = "Round4"
+        Me.Round4.Size = New System.Drawing.Size(75, 23)
+        Me.Round4.TabIndex = 143
+        Me.Round4.Text = "Round 4"
+        Me.Round4.UseVisualStyleBackColor = True
+        '
+        'Round5
+        '
+        Me.Round5.Location = New System.Drawing.Point(786, 679)
+        Me.Round5.Name = "Round5"
+        Me.Round5.Size = New System.Drawing.Size(75, 23)
+        Me.Round5.TabIndex = 144
+        Me.Round5.Text = "Round 5"
+        Me.Round5.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(29, 192)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(14, 13)
+        Me.Label8.TabIndex = 145
+        Me.Label8.Text = "9"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(22, 236)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(21, 13)
+        Me.Label9.TabIndex = 146
+        Me.Label9.Text = "24"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(29, 275)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(14, 13)
+        Me.Label10.TabIndex = 147
+        Me.Label10.Text = "8"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(22, 315)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(21, 13)
+        Me.Label11.TabIndex = 148
+        Me.Label11.Text = "25"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(29, 356)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(14, 13)
+        Me.Label12.TabIndex = 149
+        Me.Label12.Text = "4"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(22, 395)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(21, 13)
+        Me.Label13.TabIndex = 150
+        Me.Label13.Text = "29"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(22, 433)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(21, 13)
+        Me.Label14.TabIndex = 151
+        Me.Label14.Text = "13"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(22, 477)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(21, 13)
+        Me.Label15.TabIndex = 152
+        Me.Label15.Text = "20"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(22, 518)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(21, 13)
+        Me.Label16.TabIndex = 153
+        Me.Label16.Text = "12"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(22, 557)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(21, 13)
+        Me.Label17.TabIndex = 154
+        Me.Label17.Text = "21"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(29, 595)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(14, 13)
+        Me.Label18.TabIndex = 155
+        Me.Label18.Text = "5"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(22, 640)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(21, 13)
+        Me.Label19.TabIndex = 156
+        Me.Label19.Text = "28"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(892, 156)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(21, 13)
+        Me.Label20.TabIndex = 157
+        Me.Label20.Text = "18"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(892, 192)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(21, 13)
+        Me.Label21.TabIndex = 158
+        Me.Label21.Text = "10"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(892, 236)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(21, 13)
+        Me.Label22.TabIndex = 159
+        Me.Label22.Text = "23"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(892, 275)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(14, 13)
+        Me.Label23.TabIndex = 160
+        Me.Label23.Text = "7"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(892, 315)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(21, 13)
+        Me.Label24.TabIndex = 161
+        Me.Label24.Text = "26"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(892, 356)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(14, 13)
+        Me.Label25.TabIndex = 162
+        Me.Label25.Text = "3"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(892, 395)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(21, 13)
+        Me.Label26.TabIndex = 163
+        Me.Label26.Text = "30"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(892, 433)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(21, 13)
+        Me.Label27.TabIndex = 164
+        Me.Label27.Text = "14"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(892, 477)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(21, 13)
+        Me.Label28.TabIndex = 165
+        Me.Label28.Text = "19"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(892, 518)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(21, 13)
+        Me.Label29.TabIndex = 166
+        Me.Label29.Text = "11"
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(892, 555)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(21, 13)
+        Me.Label30.TabIndex = 167
+        Me.Label30.Text = "22"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(892, 595)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(14, 13)
+        Me.Label31.TabIndex = 168
+        Me.Label31.Text = "6"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Location = New System.Drawing.Point(892, 640)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(21, 13)
+        Me.Label32.TabIndex = 169
+        Me.Label32.Text = "27"
+        '
         'Rand_32_Team_Bracket
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(956, 701)
+        Me.Controls.Add(Me.Label32)
+        Me.Controls.Add(Me.Label31)
+        Me.Controls.Add(Me.Label30)
+        Me.Controls.Add(Me.Label29)
+        Me.Controls.Add(Me.Label28)
+        Me.Controls.Add(Me.Label27)
+        Me.Controls.Add(Me.Label26)
+        Me.Controls.Add(Me.Label25)
+        Me.Controls.Add(Me.Label24)
+        Me.Controls.Add(Me.Label23)
+        Me.Controls.Add(Me.Label22)
+        Me.Controls.Add(Me.Label21)
+        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.Label19)
+        Me.Controls.Add(Me.Label18)
+        Me.Controls.Add(Me.Label17)
+        Me.Controls.Add(Me.Label16)
+        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Round5)
+        Me.Controls.Add(Me.Round4)
+        Me.Controls.Add(Me.Round3)
+        Me.Controls.Add(Me.Round2)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnRound1)
-        Me.Controls.Add(Me.lblR6Seed1)
+        Me.Controls.Add(Me.lblChampion)
         Me.Controls.Add(Me.lblR5Seed2)
         Me.Controls.Add(Me.lblR5Seed1)
         Me.Controls.Add(Me.lblR4Seed3)
@@ -724,7 +1152,7 @@ Partial Class Rand_32_Team_Bracket
 
     End Sub
     Friend WithEvents btnRound1 As System.Windows.Forms.Button
-    Friend WithEvents lblR6Seed1 As System.Windows.Forms.Label
+    Friend WithEvents lblChampion As System.Windows.Forms.Label
     Friend WithEvents lblR5Seed2 As System.Windows.Forms.Label
     Friend WithEvents lblR5Seed1 As System.Windows.Forms.Label
     Friend WithEvents lblR4Seed3 As System.Windows.Forms.Label
@@ -788,4 +1216,40 @@ Partial Class Rand_32_Team_Bracket
     Friend WithEvents txtSeed32 As System.Windows.Forms.TextBox
     Friend WithEvents txtSeed1 As System.Windows.Forms.TextBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Round2 As System.Windows.Forms.Button
+    Friend WithEvents Round3 As System.Windows.Forms.Button
+    Friend WithEvents Round4 As System.Windows.Forms.Button
+    Friend WithEvents Round5 As System.Windows.Forms.Button
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents Label18 As System.Windows.Forms.Label
+    Friend WithEvents Label19 As System.Windows.Forms.Label
+    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents Label21 As System.Windows.Forms.Label
+    Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents Label24 As System.Windows.Forms.Label
+    Friend WithEvents Label25 As System.Windows.Forms.Label
+    Friend WithEvents Label26 As System.Windows.Forms.Label
+    Friend WithEvents Label27 As System.Windows.Forms.Label
+    Friend WithEvents Label28 As System.Windows.Forms.Label
+    Friend WithEvents Label29 As System.Windows.Forms.Label
+    Friend WithEvents Label30 As System.Windows.Forms.Label
+    Friend WithEvents Label31 As System.Windows.Forms.Label
+    Friend WithEvents Label32 As System.Windows.Forms.Label
 End Class
