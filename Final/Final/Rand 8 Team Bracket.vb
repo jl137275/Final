@@ -81,7 +81,7 @@
         intWinner1 = rand.Next(2)
         ' Display the Winner
         If intWinner1 = 0 Then
-            ' 0 means txtseed1 is the winner
+            ' 0 means lblround2seed1 is the winner
             strWinnerOne = lblRound2Seed1.Text
         Else
             ' 1 means lblround2seed4 is the winner
@@ -93,10 +93,10 @@
         intWinner2 = rand.Next(2)
         ' Display the Winner
         If intWinner2 = 0 Then
-            ' 0 means txtseed1 is the winner
+            ' 0 means lblround2seed2 is the winner
             strWinnerOne = lblRound2Seed2.Text
         Else
-            ' 1 means lblround2seed4 is the winner
+            ' 1 means lblround2seed3 is the winner
             strWinnerOne = lblRound2Seed3.Text
         End If
         lblround3Seed2.Text = strWinnerOne
@@ -113,10 +113,10 @@
         intWinner1 = rand.Next(2)
         ' Display the Winner
         If intWinner1 = 0 Then
-            ' 0 means txtseed1 is the winner
+            ' 0 means lblround3seed1 is the winner
             strWinnerOne = lblRound3Seed1.Text
         Else
-            ' 1 means txtseed2 is the winner
+            ' 1 means lblround3seed2 is the winner
             strWinnerOne = lblround3Seed2.Text
         End If
         lblChampion.Text = strWinnerOne
