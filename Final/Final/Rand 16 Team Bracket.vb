@@ -141,10 +141,8 @@
 		intWinner1 = rand.Next(2)
 		' Display the Winner
 		If intWinner1 = 0 Then
-			' 0 means txtseed1 is the winner
 			strWinnerOne = lblSeed1R2.Text
 		Else
-				' 1 means lblround2seed4 is the winner
 				strWinnerOne = lblSeed5R2.Text
 			End If
 			lblSeed1R3.Text = strWinnerOne
@@ -153,10 +151,8 @@
 			intWinner2 = rand.Next(2)
 			' Display the Winner
 			If intWinner2 = 0 Then
-				' 0 means txtseed1 is the winner
-				strWinnerOne = lblSeed4R2.Text
+            strWinnerOne = lblSeed4R2.Text
 			Else
-				' 1 means lblround2seed4 is the winner
 				strWinnerOne = lblSeed8R2.Text
 			End If
 		lblSeed4R3.Text = strWinnerOne
@@ -164,10 +160,8 @@
 		intWinner3 = rand.Next(2)
 		' Display the Winner
 		If intWinner3 = 0 Then
-			' 0 means txtseed1 is the winner
 			strWinnerOne = lblSeed2R2.Text
 		Else
-			' 1 means lblround2seed4 is the winner
 			strWinnerOne = lblSeed6R2.Text
 		End If
 		lblSeed2R3.Text = strWinnerOne
@@ -176,10 +170,8 @@
 		intWinner4 = rand.Next(2)
 		' Display the Winner
 		If intWinner4 = 0 Then
-			' 0 means txtseed1 is the winner
 			strWinnerOne = lblSeed3R2.Text
 		Else
-			' 1 means lblround2seed4 is the winner
 			strWinnerOne = lblSeed7R2.Text
 		End If
 		lblSeed3R3.Text = strWinnerOne
@@ -204,10 +196,8 @@
 		intWinner1 = rand.Next(2)
 		' Display the Winner
 		If intWinner1 = 0 Then
-			' 0 means txtseed1 is the winner
 			strWinnerOne = lblSeed1R3.Text
 		Else
-			' 1 means lblround2seed4 is the winner
 			strWinnerOne = lblSeed4R3.Text
 		End If
 		lblSeed1R4.Text = strWinnerOne
@@ -216,10 +206,8 @@
 		intWinner2 = rand.Next(2)
 		' Display the Winner
 		If intWinner2 = 0 Then
-			' 0 means txtseed1 is the winner
 			strWinnerOne = lblSeed2R3.Text
 		Else
-			' 1 means lblround2seed4 is the winner
 			strWinnerOne = lblSeed3R3.Text
 		End If
 		lblSeed2R4.Text = strWinnerOne
@@ -236,10 +224,10 @@
 		intWinner1 = rand.Next(2)
 		' Display the Winner
 		If intWinner1 = 0 Then
-			' 0 means txtseed1 is the winner
+            ' 0 means lblSeed1R4 is the winner
 			strWinnerOne = lblSeed1R4.Text
 		Else
-			' 1 means lblround2seed4 is the winner
+            ' 1 means lblseed2r4 is the winner
 			strWinnerOne = lblSeed2R4.Text
 		End If
 		lblChampion.Text = strWinnerOne
